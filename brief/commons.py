@@ -24,7 +24,7 @@ def fetch(url, timeout=60):
         body, _, code = r.stdout.rpartition(b"\n")
         if code.strip() == b"200":
             return body
-        time.sleep(3 * (attempt + 1))
+        time.sleep(8 * (attempt + 1))
     raise SystemExit(f"Download failed ({code.strip().decode() or r.stderr.decode()[:200]}): {url}")
 
 

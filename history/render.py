@@ -281,8 +281,9 @@ class Scene:
             d.text((W / 2, 520), "ON THIS DAY", font=font("type", 64), fill=RED, anchor="mm")
             d.line([W / 2 - 260, 580, W / 2 + 260, 580], fill=INK, width=3)
             d.text((W / 2, 720 + (1 - a) * 40), self.story["date"].upper(), font=font("display", 130), fill=INK, anchor="mm")
-            yr = str(int(int(self.story["year"]) * ease(t * 0.9 + 0.1))) if t < 1.2 else str(self.story["year"])
-            d.text((W / 2, 930), yr, font=font("display", 260), fill=RED, anchor="mm")
+            yb = ease((t - 0.25) * 2.5)
+            yf = font("display", int(200 + 60 * yb))
+            d.text((W / 2, 930), str(self.story["year"]), font=yf, fill=RED, anchor="mm")
             f, ls, sz = fit(d, self.story["headline"], "serif", W - 180, 300, 80, 46, var="Black")
             for i, l in enumerate(ls[:3]):
                 b = ease((t - 0.5 - 0.15 * i) * 3)
@@ -337,10 +338,14 @@ class Scene:
                     d.text((W / 2, y + i * sz * 1.12 + (1 - b) * 30), l, font=f, fill=INK, anchor="ma")
                 d.text((W / 2, 1230), "Tell us in the comments", font=font("oldr", 44), fill=NAVY, anchor="mm")
             else:
-                y0 = 300
+                f, ls, sz = fit(d, title, "serif", W - 180, 560, 92, 50, var="Black")
+                y0 = int(820 - (len(ls) * sz * 1.12 + 80) / 2)
                 if self.img is not None:
                     paste_rot(c, self.frame_small, ((W - self.frame_small.width) // 2, 240), self.angle)
                     y0 = 860
+                else:
+                    # big decorative quote marks for text-only cards
+                    d.text((W / 2, y0 - 120), "\u201C", font=font("display", 260), fill=(205, 180, 140), anchor="mm")
                 d.line([W / 2 - 150, y0 + 10, W / 2 - 40, y0 + 10], fill=GOLD, width=3)
                 d.line([W / 2 + 40, y0 + 10, W / 2 + 150, y0 + 10], fill=GOLD, width=3)
                 star(d, W / 2, y0 + 10, 18, GOLD)
