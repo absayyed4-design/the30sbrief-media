@@ -76,20 +76,33 @@ cannot verify from at least 2 reliable outlets.
   Poll `creative_get_flow_run_status`, then download `content_url` with curl to `$W/<slug>.mp3`.
 - The prompt you send = the scene "text" fields joined with single spaces, in order.
 
-## 6. Build the story file and render
-Write `$W/<slug>.json` (see the docstring at the top of `brief/render.py`). Typical scenes:
-`photo` (hook + place/person) -> `stat` (key number) -> `photo` or `text` (2nd fact, ideally
-with another photo) -> `text` (what's next) -> `question` (skip for tragic news) -> `cta`.
-- `headline`: max ~10 words, explains the story at a glance (used on cover and image post).
-- `tag`: BREAKING, UPDATE, DEVELOPING, JUST IN, or a topic like WEATHER / POLITICS / MONEY.
-- `post_facts`: 2-3 short fact lines for the image post.
-- slug: lowercase-dashes + `-HHMM` (NY time) so file names are unique.
+## 6. Build the story file and render (TEMPLATE = Oct 17 "press secretary" reel)
+The look Abdullah approved: white header bar with date and red progress line, light grid
+background, a NEW visual beat every 2-4 seconds built from REAL photos, every element
+popping in when the voice says it, big UPPERCASE captions. Never a frame with just one
+line of text. Read the docstring at the top of  (all scene types) and copy
+ as the starting point.
+- 5-7 scenes per story. Start with  (tag pill + photo card of the main person/place,
+  name pill, subtitle, big navy + red two-line text like "OUT AFTER" / "5 DAYS").
+- Then mix  (1-2 photos with date pills, e.g. "OCT 9 • HIRED", optional counting badge),
+   (each named person gets their own photo card; add a quote card with a SHORT real
+  quote or a plain label),  (photo + tilted stamp text),  (comparison numbers,
+  with photo thumbnails when they are people),  (big counting number, optional
+  people-icon grid),  (homes/people hit),  (check / search / alert),
+   (time card + photo),  (skip on tragic news), and always  last.
+- Every person or place mentioned gets a real photo on screen while it is spoken.
+- Use  word numbers so elements pop in on the matching word.
+-  /  /  (exactly 3 short stat cards) /  drive the
+  cover and the image post (same look as the original cover with WATCH IN 30 SECONDS).
+- slug: lowercase-dashes +  (NY time).
 
-    python3 brief/render.py $W/<slug>.json $W/out
+    python3 brief/render.py /tmp/tmp.YKqCbmoiUm/<slug>.json /tmp/tmp.YKqCbmoiUm/out
 
-Look at the cover and post images (Read them) and 2-3 video frames
-(`ffmpeg -i <mp4> -vf "select='eq(n\,90)+eq(n\,400)',scale=360:-1,tile=2x1" -frames:v 1 $W/f.jpg`)
-before publishing. Fix overlapping/cut text by shortening it.
+Check it before publishing: make a contact sheet
+() and Read it,
+plus the cover and post images. Fix cut-off text, wrong timing, or a beat with no visual.
+If Commons API returns 429, download the thumbnail directly from upload.wikimedia.org
+(md5 path) after a short wait; license info comes from the search result.
 
 ## 7. Captions
 Reel caption (also used, slightly shorter, for the image post):

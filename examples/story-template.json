@@ -1,0 +1,116 @@
+{
+ "slug": "trump-russia-sanctions-0835",
+ "date": "OCT 19, 2026",
+ "tag": "BREAKING • WHITE HOUSE",
+ "headline": "Trump defends easing sanctions on Russia",
+ "head_top": "TRUMP DEFENDS",
+ "head_red": "EASING RUSSIA SANCTIONS",
+ "stats": [
+  {
+   "value": "OCT 9",
+   "label": "DIESEL DEAL",
+   "color": "blue"
+  },
+  {
+   "value": "$6.18",
+   "label": "DIESEL / GAL",
+   "color": "navy"
+  },
+  {
+   "value": "OCT 17",
+   "label": "SANCTIONS WAIVED",
+   "color": "red"
+  }
+ ],
+ "cover_label": "DONALD TRUMP",
+ "voice_mp3": "/abs/path/voice.mp3",
+ "scenes": [
+  {
+   "type": "hero",
+   "tag": "BREAKING • WHITE HOUSE",
+   "image": "/abs/path/trump.jpg",
+   "file_photo": true,
+   "name": "DONALD TRUMP",
+   "sub": "President of the United States",
+   "big_top": "EASING SANCTIONS",
+   "big_red": "ON RUSSIA",
+   "big_top_at": 3,
+   "big_red_at": 6,
+   "text": "[serious] President Trump is defending his decision to ease sanctions on Russia."
+  },
+  {
+   "type": "cards",
+   "title": "HOW IT HAPPENED",
+   "cards": [
+    {
+     "image": "/abs/path/diesel.jpg",
+     "file_photo": true,
+     "pill": "OCT 9 • DIESEL DEAL",
+     "color": "blue",
+     "at": 0
+    },
+    {
+     "image": "/abs/path/capitol.jpg",
+     "file_photo": true,
+     "pill": "OCT 17 • SANCTIONS WAIVED",
+     "color": "navy",
+     "at": 11
+    }
+   ],
+   "text": "On October ninth, he cut a deal to buy Russian diesel. Friday, he waived tough new sanctions passed by Congress."
+  },
+  {
+   "type": "bars",
+   "title": "U.S. DIESEL PRICE",
+   "sub": "average per gallon, EIA",
+   "bars": [
+    {
+     "label": "JAN 2026",
+     "value": 3.48,
+     "prefix": "$",
+     "color": "amber",
+     "at": 10
+    },
+    {
+     "label": "OCT 2026",
+     "value": 6.18,
+     "prefix": "$",
+     "color": "red",
+     "at": 0
+    }
+   ],
+   "text": "Diesel now averages six dollars eighteen a gallon, up from three forty eight in January."
+  },
+  {
+   "type": "person",
+   "image": "/abs/path/putin.png",
+   "file_photo": true,
+   "name": "VLADIMIR PUTIN",
+   "sub": "President of Russia",
+   "quote_label": "Trump's reason:",
+   "quote": "KEEP PEACE TALKS ALIVE",
+   "quote_at": 9,
+   "text": "Trump says more pressure could push Putin away from peace talks, and he hinted a hostage deal is in play."
+  },
+  {
+   "type": "person",
+   "image": "/abs/path/tillis.jpg",
+   "file_photo": true,
+   "name": "SEN. THOM TILLIS",
+   "sub": "Republican, North Carolina",
+   "quote_label": "His reaction:",
+   "quote": "“BEYOND IRRESPONSIBLE”",
+   "quote_at": 4,
+   "text": "Republican senator Thom Tillis called the move beyond irresponsible."
+  },
+  {
+   "type": "question",
+   "title": "Worth it for cheaper diesel?",
+   "text": "[curious] Will cheaper diesel be worth it? Tell us in the comments."
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow The 30s Brief, for your daily news in thirty seconds."
+  }
+ ]
+}
