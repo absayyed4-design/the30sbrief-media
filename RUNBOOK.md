@@ -10,7 +10,7 @@ one ~30-second motion-graphics Reel AND one matching image post. No asking, no w
    with push access and clone it there. `cd` into it and `git pull`.
 2. Load the tools you need with ToolSearch: the FB Pages connector tools
    (`list_pages`, `post_reel`, `set_reel_thumbnail`, `video_status`, `post_photo`, `list_posts`),
-   ElevenLabs `creative_generate_speech` + `creative_get_flow_run_status`, WebSearch, WebFetch.
+   ElevenLabs `creative_generate_speech` + `creative_get_flow_run_status`, WebSearch, WebFetch (article pages only, see section 2).
    If the FB Pages connector is not available, render everything, then stop and report it.
 3. Work dir: `W=$(mktemp -d)`. Read `state/posted.json` (stories already covered).
 
@@ -32,15 +32,16 @@ one ~30-second motion-graphics Reel AND one matching image post. No asking, no w
   (then make it clearly an "UPDATE").
 
 ## 2. Finding trending stories (use several signals, prefer stories hit by 2+)
-1. Google Trends US: WebFetch `https://trends.google.com/trending/rss?geo=US`
-   (search interest + traffic numbers + related headlines).
-2. X/Twitter US trends: WebFetch `https://trends24.in/united-states/` (look at the latest hours).
-3. Google News US top stories: WebSearch "top news today" and WebFetch Google News when needed.
-4. Competitor signal: recent posts on big US news pages (Fox News, CNN, NBC News, ABC News, NY Post)
-   with 500+ reactions mean the topic is hot.
-If Google Trends or trends24 cannot be fetched, do not stop: use WebSearch for
-"Google Trends US trending now", "trending on X today US", AP/Reuters "news roundup today",
-and the competitor pages instead.
+IMPORTANT: never WebFetch trends.google.com, trends24.in, x.com or news.google.com. Those
+domains need a manual approval that nobody is there to give, so the run stalls. Use WebSearch
+for all trend discovery, and WebFetch only on normal news article pages (AP, Reuters, NPR, etc.).
+1. Google Trends signal: WebSearch "Google Trends US trending now today" and
+   "trending searches US today".
+2. X/Twitter signal: WebSearch "trending on X today US" / "trending topics twitter US today".
+3. Top stories: WebSearch "top news today", "AP news today", "Reuters US news today",
+   "breaking news <today's date>".
+4. Competitor signal: WebSearch for what Fox News, CNN, NBC News, ABC News, NY Post are
+   leading with today; a topic covered by 3+ of them is hot.
 Pick stories that are US-relevant, factual, and fit motion graphics (numbers, places, people,
 maps, timelines). Skip celebrity gossip with no facts, sports scores only, and anything you
 cannot verify from at least 2 reliable outlets.
