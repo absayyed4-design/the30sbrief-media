@@ -10,6 +10,7 @@ story.json:
   "year": 1781,
   "headline": "The British surrender at Yorktown",
   "voice_mp3": "/abs/voice.mp3",   # ONE file = all scene texts read in order
+  "mood": "proud",   # optional: emotional|proud|tense|mysterious|hopeful|tragic|nostalgic|adventure -> history/music/<mood>.mp3
   "post_facts": ["...", "..."],
   "scenes": [
     {"type": "intro", "text": "[dramatic] October 19th, 1781. ..."},
@@ -369,6 +370,61 @@ def audio_duration(p):
                                  "default=nw=1:nk=1", p], capture_output=True, text=True).stdout.strip())
 
 
+SFX = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sfx")
+MUSIC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "music")
+MOODS = ["emotional", "proud", "tense", "mysterious", "hopeful", "tragic", "nostalgic", "adventure"]
+
+
+def pad_wav(path, dur, sr=44100):
+    """Soft, slow documentary drone (synthesized, royalty free)."""
+    import numpy as np, wave
+    t = np.arange(int(dur * sr)) / sr
+    sig = np.zeros_like(t)
+    for f, a in ((55.0, 0.5), (110.0, 0.35), (164.81, 0.22), (220.0, 0.16), (261.63, 0.10), (329.63, 0.06)):
+        for d in (-0.35, 0.35):
+            sig += a * np.sin(2 * np.pi * (f + d) * t + f)
+    sig *= 0.75 + 0.25 * np.sin(2 * np.pi * 0.08 * t)
+    fade = np.minimum(1, np.minimum(t / 2.5, (dur - t) / 2.0).clip(0))
+    sig = sig * fade
+    sig = (sig / np.abs(sig).max() * 0.6 * 32767).astype(np.int16)
+    with wave.open(path, "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes(sig.tobytes())
+    return path
+
+
+def mix_audio(story, scenes, starts, dur, out_dir):
+    """Voice (loud + clear) over a quiet vintage bed, with paper turns on scene changes
+    and a soft boom on the intro year and big-number scenes."""
+    out = os.path.join(out_dir, f"{story['slug']}-mix.m4a")
+    music = os.path.join(MUSIC, f"{story.get('mood', '')}.mp3")
+    if not (story.get("mood") and os.path.exists(music)):
+        music = pad_wav(os.path.join(out_dir, f"{story['slug']}-pad.wav"), dur)
+    ins = ["-i", story["voice_mp3"], "-stream_loop", "-1", "-i", os.path.join(SFX, "projector.mp3"),
+           "-stream_loop", "-1", "-i", music]
+    fx, labels = [], []
+    hits = [(st, "paper.mp3", 0.9) for k, st in enumerate(starts) if k > 0]
+    hits += [(starts[k] + 0.15, "boom.mp3", 0.55) for k, s in enumerate(scenes) if s["type"] in ("intro", "stat")]
+    for j, (st, f, vol) in enumerate(hits):
+        ins += ["-i", os.path.join(SFX, f)]
+        ms = int(max(0, st - 0.05) * 1000)
+        fx.append(f"[{3 + j}:a]loudnorm=I=-20,volume={vol},adelay={ms}|{ms},apad[h{j}]")
+        labels.append(f"[h{j}]")
+    graph = ";".join([
+        "[0:a]highpass=f=70,equalizer=f=3000:t=o:w=1.5:g=4,acompressor=threshold=-24dB:ratio=3:attack=5:release=150,"
+        "loudnorm=I=-15:TP=-2:LRA=6,aresample=44100,apad,asplit[v][vk]",
+        "[1:a]volume=-31dB,lowpass=f=6000,aresample=44100[b]",
+        # music bed: normalized, quiet, ducks under the voice, fades in and out
+        f"[2:a]loudnorm=I=-24,volume=-4dB,aresample=44100,afade=t=in:d=1.5,"
+        f"afade=t=out:st={max(0, dur - 2.5):.2f}:d=2.5[pm]",
+        "[pm][vk]sidechaincompress=threshold=0.03:ratio=4:attack=60:release=600[p]",
+        *fx,
+        f"[v][b][p]{''.join(labels)}amix=inputs={3 + len(labels)}:normalize=0:duration=first,alimiter=limit=0.89[m]",
+    ])
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *ins, "-filter_complex", graph, "-map", "[m]",
+                    "-t", f"{dur:.3f}", "-c:a", "aac", "-b:a", "192k", out], check=True)
+    return out
+
+
 def render_reel(story, out_dir):
     scenes = story["scenes"]
     dur = audio_duration(story["voice_mp3"]) + 0.6
@@ -388,8 +444,8 @@ def render_reel(story, out_dir):
     n = int(dur * FPS)
     out = os.path.join(out_dir, f"{story['slug']}.mp4")
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
-                           "-r", str(FPS), "-i", "-", "-i", story["voice_mp3"], "-c:v", "libx264", "-preset", "veryfast",
-                           "-crf", "21", "-pix_fmt", "yuv420p", "-af", "apad", "-c:a", "aac", "-b:a", "160k",
+                           "-r", str(FPS), "-i", "-", "-i", mix_audio(story, scenes, starts, n / FPS, out_dir), "-c:v", "libx264", "-preset", "veryfast",
+                           "-crf", "21", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
                            "-t", f"{n / FPS:.3f}", "-movflags", "+faststart", out], stdin=subprocess.PIPE)
     flick = random.Random(1)
     for i in range(n):
