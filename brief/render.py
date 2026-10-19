@@ -353,7 +353,7 @@ def word_time(scene, n, default):
 
 # ---------- scene builders ----------
 def count_text(s, k):
-    m = re.match(r"^([^\d]*)([\d,\.]+)(.*)$", s)
+    m = re.match(r"^([^\d]*?)(\d[\d,]*(?:\.\d+)?)(.*)$", s)
     if not m:
         return s
     pre, num, post = m.groups()
