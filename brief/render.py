@@ -1,4 +1,4 @@
-"""The 30s Brief renderer: 9:16 reel + 9:16 cover + 4:5 image post.
+"""The 30s Brief renderer: 9:16 reel + 9:16 cover + 1:1 (1080x1080) image post.
 
 Template = the Oct 17 "press secretary out after 5 days" reel (Abdullah's favourite):
 white header bar (round 30s logo, THE 30s BRIEF, date, red progress line under it),
@@ -801,24 +801,24 @@ def render_cover(story, out_dir):
 
 
 def render_post(story, out_dir):
-    PH = 1350
+    PH = 1080  # square 1:1 feed post
     c = grid_bg(W, PH, grid=False).convert("RGBA")
     d = ImageDraw.Draw(c)
-    lg = round_logo(80)
-    f = font("Black", 46)
+    lg = round_logo(64)
+    f = font("Black", 38)
     tw = tlen("THE 30s BRIEF", f)
-    x = (W - 80 - 36 - tw) / 2
-    c.alpha_composite(lg, (int(x), 44))
-    d.text((x + 116, 84), "THE 30s BRIEF", font=f, fill=NAVY, anchor="lm")
+    x = (W - 64 - 28 - tw) / 2
+    c.alpha_composite(lg, (int(x), 30))
+    d.text((x + 92, 62), "THE 30s BRIEF", font=f, fill=NAVY, anchor="lm")
     if story.get("tag"):
-        p, pw, ph = pill_sprite(story["tag"].upper(), font("Black", 36), RED, padx=32, h=70)
-        c.alpha_composite(p.im, (int(W / 2 - pw / 2 - p.pad), 150 - p.pad))
-    headline_block(c, story, 238, 200)
+        p, pw, ph = pill_sprite(story["tag"].upper(), font("Black", 30), RED, padx=28, h=58)
+        c.alpha_composite(p.im, (int(W / 2 - pw / 2 - p.pad), 116 - p.pad))
+    headline_block(c, story, 188, 160)
     img, fp, label = first_photo(story)
     if img is not None:
-        cs = card_sprite(img, 640, 560, story.get("cover_label", label), NAVY, None, fp, border=10, r=40)
-        c.alpha_composite(cs.im, (220 - cs.pad, 470 - cs.pad))
-    stat_row(c, story.get("stats"), 1110, h=150)
+        cs = card_sprite(img, 540, 430, story.get("cover_label", label), NAVY, None, fp, border=10, r=36)
+        c.alpha_composite(cs.im, (int((W - 540) / 2) - cs.pad, 368 - cs.pad))
+    stat_row(c, story.get("stats"), 900, h=130)
     out = os.path.join(out_dir, f"{story['slug']}-post.jpg")
     c.convert("RGB").save(out, quality=93)
     return out

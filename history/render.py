@@ -1,4 +1,4 @@
-"""On This Day USA renderer: vintage 9:16 reel + cover + 4:5 image post, plus page branding.
+"""On This Day USA renderer: vintage 9:16 reel + cover + 1:1 (1080x1080) image post, plus page branding.
 
     python3 history/render.py story.json OUT_DIR
     python3 history/render.py --branding OUT_DIR
@@ -498,35 +498,35 @@ def render_cover(story, out_dir):
 
 
 def render_post(story, out_dir):
-    PW, PH = 1080, 1350
+    PW, PH = 1080, 1080  # square 1:1 feed post
     c = paper(PW, PH, 13)
     d = ImageDraw.Draw(c)
-    d.text((PW / 2, 70), f"ON THIS DAY  •  {story['date'].upper()}, {story['year']}", font=font("type", 40), fill=RED, anchor="mm")
-    d.line([60, 110, PW - 60, 110], fill=INK, width=3)
+    d.text((PW / 2, 52), f"ON THIS DAY  •  {story['date'].upper()}, {story['year']}", font=font("type", 36), fill=RED, anchor="mm")
+    d.line([60, 88, PW - 60, 88], fill=INK, width=3)
     img = first_image(story)
-    y = 140
+    y = 110
     if img is not None:
-        fr = print_frame(img, 860, 560, 22)
-        paste_rot(c, fr, ((PW - fr.width) // 2 - 10, 140), -1.2)
-        y = 780
-    f, ls, sz = fit(d, story["headline"], "display", PW - 120, 230, 84, 50)
-    for l in ls[:3]:
+        fr = print_frame(img, 800, 450, 20)
+        paste_rot(c, fr, ((PW - fr.width) // 2 - 8, 108), -1.2)
+        y = 108 + fr.height + 26
+    f, ls, sz = fit(d, story["headline"], "display", PW - 120, 150, 70, 44)
+    for l in ls[:2]:
         d.text((PW / 2, y), l, font=f, fill=INK, anchor="ma")
         y += sz * 1.08
-    y += 22
-    fb = font("old", 36)
+    y += 16
+    fb = font("old", 31)
     for fact in story.get("post_facts", [])[:3]:
         fl = wrap(d, fact, fb, PW - 170)
-        if y + len(fl) * 46 > PH - 120:
+        if y + len(fl) * 40 > PH - 112:
             break
-        star(d, 82, y + 22, 14, RED)
+        star(d, 82, y + 19, 12, RED)
         for l in fl:
             d.text((110, y), l, font=fb, fill=(55, 42, 32))
-            y += 46
-        y += 10
-    b = badge(80)
-    c.paste(b, (60, PH - 110), b)
-    d.text((160, PH - 70), "On This Day USA", font=font("display", 46), fill=INK, anchor="lm")
+            y += 40
+        y += 8
+    b = badge(72)
+    c.paste(b, (60, PH - 96), b)
+    d.text((150, PH - 60), "On This Day USA", font=font("display", 40), fill=INK, anchor="lm")
     out = os.path.join(out_dir, f"{story['slug']}-post.jpg")
     c.save(out, quality=92)
     return out
