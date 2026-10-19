@@ -188,6 +188,13 @@ async function runTool(name, a, pages) {
   }
 }
 
+// Never let a page token leave the worker, whatever Facebook puts in a response.
+function scrub(text, pages) {
+  let s = String(text);
+  for (const p of Object.values(pages)) if (p.token) s = s.split(p.token).join("[redacted]");
+  return s.replace(/access_token=[^&"\s]+/g, "access_token=[redacted]");
+}
+
 function rpc(id, result) {
   return Response.json({ jsonrpc: "2.0", id, result });
 }
@@ -217,9 +224,10 @@ export default {
       case "tools/call":
         try {
           const out = await runTool(msg.params.name, msg.params.arguments || {}, pages);
-          return rpc(msg.id, { content: [{ type: "text", text: JSON.stringify(out) }] });
+          if (out && typeof out === "object") delete out.paging; // paging links carry the access token
+          return rpc(msg.id, { content: [{ type: "text", text: scrub(JSON.stringify(out), pages) }] });
         } catch (e) {
-          return rpc(msg.id, { content: [{ type: "text", text: "Error: " + e.message }], isError: true });
+          return rpc(msg.id, { content: [{ type: "text", text: "Error: " + scrub(e.message, pages) }], isError: true });
         }
       default:
         return Response.json({ jsonrpc: "2.0", id: msg.id, error: { code: -32601, message: "Method not found" } });

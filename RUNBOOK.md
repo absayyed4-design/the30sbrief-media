@@ -29,6 +29,9 @@ one ~30-second motion-graphics Reel AND one matching image post. No asking, no w
 3. Google News US top stories: WebSearch "top news today" and WebFetch Google News when needed.
 4. Competitor signal: recent posts on big US news pages (Fox News, CNN, NBC News, ABC News, NY Post)
    with 500+ reactions mean the topic is hot.
+If Google Trends or trends24 cannot be fetched, do not stop: use WebSearch for
+"Google Trends US trending now", "trending on X today US", AP/Reuters "news roundup today",
+and the competitor pages instead.
 Pick stories that are US-relevant, factual, and fit motion graphics (numbers, places, people,
 maps, timelines). Skip celebrity gossip with no facts, sports scores only, and anything you
 cannot verify from at least 2 reliable outlets.
