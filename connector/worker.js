@@ -200,9 +200,20 @@ function rpc(id, result) {
   return Response.json({ jsonrpc: "2.0", id, result });
 }
 
+const PRIVACY_HTML = `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy - ABD Page Publisher</title>
+<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;line-height:1.6;color:#222}</style></head><body>
+<h1>Privacy Policy</h1><p><b>App:</b> ABD Page Publisher<br><b>Owner:</b> Abdullah Sayyed, Pune, India<br><b>Contact:</b> absayyed4@gmail.com</p>
+<p>ABD Page Publisher is a private tool used only by its owner to publish and manage content on Facebook Pages that the owner administers (The 30s Brief, On This Day USA, Certified Overthinker, Hey Pune).</p>
+<h2>What data we use</h2><p>The app uses Page access tokens granted by the Page owner to publish posts, Reels and photos, read post insights and manage comments on those Pages. It does not collect, store or sell personal data of Facebook users.</p>
+<h2>Data storage</h2><p>Access tokens are stored encrypted as server secrets and are never shared. No user data is kept after a request is completed.</p>
+<h2>Data deletion</h2><p>Because the app stores no personal user data, there is nothing to delete. To request removal of any information or to ask a question, email absayyed4@gmail.com and we will respond within 30 days. You can also remove the app at any time in Facebook Settings, Business Integrations.</p>
+<p>Last updated: October 2026</p></body></html>`;
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.pathname === "/privacy" || url.pathname === "/data-deletion")
+      return new Response(PRIVACY_HTML, { headers: { "content-type": "text/html; charset=utf-8" } });
     if (url.pathname !== `/mcp/${env.ACCESS_KEY}`) return new Response("Not found", { status: 404 });
     if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
 
