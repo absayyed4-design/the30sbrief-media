@@ -15,8 +15,10 @@ one ~30-second motion-graphics Reel AND one matching image post. No asking, no w
 3. Work dir: `W=$(mktemp -d)`. Read `state/posted.json` (stories already covered).
 
 ## 1. Which window to cover
-- First run of the day (the 5-7 AM run): cover the biggest stories from the last ~10 hours
-  (overnight). Up to 3 stories.
+- Any run between midnight and 7 AM New York time (the 5:49 AM scheduled run, or a manual
+  "Run now" test at night): cover the biggest stories from the last ~10 hours that are not in
+  `state/posted.json`. Up to 3 stories for the 5-7 AM run; exactly 1 story for a run before 5 AM
+  (manual test). Always publish at least 1 story in this window if any solid story exists.
 - Every other run: only stories that broke or blew up in the last ~2 hours. Up to 2 stories.
 - If nothing new is strong enough, publish nothing and end the run. Never force a weak story.
 - Never repeat a story already in `state/posted.json` unless there is a big new development
