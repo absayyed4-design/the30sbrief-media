@@ -19,8 +19,15 @@ one ~30-second motion-graphics Reel AND one matching image post. No asking, no w
   "Run now" test at night): cover the biggest stories from the last ~10 hours that are not in
   `state/posted.json`. Up to 3 stories for the 5-7 AM run; exactly 1 story for a run before 5 AM
   (manual test). Always publish at least 1 story in this window if any solid story exists.
-- Every other run: only stories that broke or blew up in the last ~2 hours. Up to 2 stories.
-- If nothing new is strong enough, publish nothing and end the run. Never force a weak story.
+- Every other run: stories that broke, moved or blew up in the last ~4 hours. Publish 1-2 stories.
+- DAILY TARGET: at least 20 stories per New York day (5:49 AM to 11:49 PM, 19 runs).
+  Count today's entries in `state/posted.json`. Pace = 20 x (runs done today / 19).
+  If today's count is behind pace, publish 2 stories this run (3 if far behind).
+  Every run should publish at least 1 story: if there is no big breaking story, cover the
+  next-best verified US story of the day not yet posted (politics, economy, weather, crime,
+  courts, tech, health, sports news with a real news angle, viral human-interest).
+- Only skip a run if there is truly no verified, unposted US story from the last ~12 hours.
+  Never publish anything unverified just to hit the number.
 - Never repeat a story already in `state/posted.json` unless there is a big new development
   (then make it clearly an "UPDATE").
 
