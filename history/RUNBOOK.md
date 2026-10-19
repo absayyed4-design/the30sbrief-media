@@ -16,7 +16,8 @@ Reel (about 35-45 sec) AND one matching image post. No asking, no waiting.
 
 ## 1. Pick today's story
 - Today's NY date (month + day). Candidates are US events that happened on this date in any year.
-- Sources: WebFetch `https://en.wikipedia.org/wiki/<Month>_<day>` (Events section, US items),
+- Sources: WebSearch "<Month> <day> in history US events" and "on this day <Month> <day> wikipedia"
+  (never WebFetch new domains that may need manual approval; if a WebFetch is refused, use WebSearch),
   plus WebSearch "on this day <Month> <day> American history" (History.com, Britannica,
   Library of Congress "Today in History", National Archives).
 - Never repeat an event already in `state/history_posted.json` (same event in an earlier year counts too).
