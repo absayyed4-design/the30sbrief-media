@@ -1,5 +1,5 @@
 // Facebook Page MCP server for Cloudflare Workers (free plan)
-// Secrets to set in Cloudflare: ACCESS_KEY, TOKEN_30SBRIEF, TOKEN_OVERTHINKER, TOKEN_HEYPUNE
+// Secrets to set in Cloudflare: ACCESS_KEY, TOKEN_30SBRIEF, TOKEN_OVERTHINKER, TOKEN_HEYPUNE, TOKEN_ONTHISDAY
 // Connector URL for Claude: https://<your-worker>.workers.dev/mcp/<ACCESS_KEY>
 
 function loadPages(env) {
@@ -7,6 +7,7 @@ function loadPages(env) {
     "the30sbrief": { id: "1413354608527260", token: env.TOKEN_30SBRIEF },
     "certifiedoverthinker": { id: "1222360100960819", token: env.TOKEN_OVERTHINKER },
     "heypune": { id: "517710101428239", token: env.TOKEN_HEYPUNE },
+    "onthisdayusa": { id: "1351686401369959", token: env.TOKEN_ONTHISDAY },
   };
   for (const k of Object.keys(pages)) if (!pages[k].token) delete pages[k];
   return pages;
