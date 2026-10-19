@@ -2,7 +2,7 @@
 
 Facebook page: On This Day USA (connector page key `onthisdayusa`).
 Audience: US. All times are New York time (America/New_York).
-Runs: 8:52 AM, 12:52 PM, 6:52 PM NY. Each run publishes ONE story: one vintage motion-graphics
+Runs: 6:52 AM, 8:52 AM, 10:52 AM NY (all morning: "on this day" posts go stale after the day ends). Each run publishes ONE story: one vintage motion-graphics
 Reel (about 35-45 sec) AND one matching image post. No asking, no waiting.
 
 ## 0. Setup (every run starts in a fresh cloud session)
@@ -20,9 +20,10 @@ Reel (about 35-45 sec) AND one matching image post. No asking, no waiting.
   plus WebSearch "on this day <Month> <day> American history" (History.com, Britannica,
   Library of Congress "Today in History", National Archives).
 - Never repeat an event already in `state/history_posted.json` (same event in an earlier year counts too).
-- Vary across the day: morning run = a big famous milestone (wars, presidents, inventions, landmarks);
-  midday run = a surprising or little-known story (odd firsts, inventions, sports, culture, business);
-  evening run = a human/emotional story (heroes, disasters with respect, achievements, music, movies).
+- Vary across the three runs: 6:52 AM run = a big famous milestone (wars, presidents, inventions, landmarks);
+  8:52 AM run = a surprising or little-known story (odd firsts, inventions, sports, culture, business);
+  10:52 AM run = a human/emotional story (heroes, disasters with respect, achievements, music, movies).
+  A run outside these times (manual test) picks whichever type today's log is missing.
 - Avoid: graphic violence focus, partisan political takes on recent events (after 2000 keep it neutral
   and factual), anything that cannot be verified.
 
