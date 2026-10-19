@@ -16,14 +16,25 @@ OK = re.compile(r"^(public domain|pd|cc0|cc by(-sa)? ?\d|cc-by|cc by-sa|cc-by-sa
 
 
 def fetch(url, timeout=60):
-    for attempt in range(5):
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
-                return r.read()
-        except urllib.error.HTTPError as e:
-            if e.code != 429 or attempt == 4:
-                raise
-            time.sleep(int(e.headers.get("Retry-After") or 0) or 3 * (attempt + 1))
+    """curl works reliably through the sandbox proxy (python urllib gets 429s)."""
+    import subprocess
+    for attempt in range(4):
+        r = subprocess.run(["curl", "-sS", "-L", "-m", str(timeout), "-A", UA["User-Agent"],
+                            "-w", "\\n%{http_code}", url], capture_output=True)
+        body, _, code = r.stdout.rpartition(b"\n")
+        if code.strip() == b"200":
+            return body
+        time.sleep(3 * (attempt + 1))
+    raise SystemExit(f"Download failed ({code.strip().decode() or r.stderr.decode()[:200]}): {url}")
+
+
+def thumb(url, width=1280):
+    """Turn an upload.wikimedia.org original URL into a standard-size thumbnail URL."""
+    url = (url or "").split("?")[0]
+    m = re.match(r"(https://upload\.wikimedia\.org/wikipedia/[^/]+)/(\w/\w\w)/([^/]+)$", url)
+    if not m or url.lower().endswith((".svg", ".tif", ".tiff")):
+        return url
+    return f"{m.group(1)}/thumb/{m.group(2)}/{m.group(3)}/{width}px-{m.group(3)}"
 
 
 def call(params):
@@ -62,7 +73,13 @@ def get(title, out):
     item = info(r["query"]["pages"].values())[0]
     if not item["ok"]:
         raise SystemExit(f"License not allowed: {item['license']}")
-    open(out, "wb").write(fetch(item["url"], 120))
+    data = None
+    if (item.get("w") or 0) > 1280:
+        try:
+            data = fetch(thumb(item["url"]), 60)
+        except SystemExit:
+            data = None
+    open(out, "wb").write(data or fetch(item["url"], 120))
     try:  # originals can be huge; shrink to max 2000px
         from PIL import Image
         im = Image.open(out); im.thumbnail((2000, 2000)); im.convert("RGB").save(out, "JPEG", quality=90)

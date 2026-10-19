@@ -84,7 +84,7 @@ def cover_crop(img, w, h):
 
 def logo(size=60):
     """Wordmark: red square with '30s' + 'THE 30s BRIEF'."""
-    f1, f2 = font("Black", int(size * 0.55)), font("ExtraBold", int(size * 0.62))
+    f1, f2 = font("Black", int(size * 0.40)), font("ExtraBold", int(size * 0.62))
     tmp = ImageDraw.Draw(Image.new("RGB", (10, 10)))
     tw = tmp.textlength("THE 30s BRIEF", font=f2)
     im = Image.new("RGBA", (int(size + 18 + tw), size), (0, 0, 0, 0))
@@ -245,7 +245,7 @@ def render_reel(story, out_dir):
     ff = subprocess.Popen([
         "ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
         "-r", str(FPS), "-i", "-", "-i", story["voice_mp3"], "-c:v", "libx264", "-preset", "veryfast",
-        "-crf", "21", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-shortest",
+        "-crf", "21", "-pix_fmt", "yuv420p", "-af", "apad", "-c:a", "aac", "-b:a", "160k", "-t", f"{n / FPS:.3f}",
         "-movflags", "+faststart", out], stdin=subprocess.PIPE)
     for i in range(n):
         t = i / FPS
