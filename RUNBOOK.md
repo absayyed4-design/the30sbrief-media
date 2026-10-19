@@ -64,7 +64,7 @@ cannot verify from at least 2 reliable outlets.
     python3 brief/commons.py get "File:<exact title>" $W/<name>.jpg
 
 ## 5. Script and voiceover
-- 60-80 spoken words (about 25-35 seconds). Simple US English, punchy, no jargon.
+- 75-95 spoken words (about 30-37 seconds). Simple US English, punchy, no jargon.
 - Structure: hook line, 3-4 key facts with numbers, a "why it matters / what's next" line,
   engagement question (skip it for deaths, disasters, violence or other tragic news),
   then always end with: "Follow The 30s Brief, for your daily news in thirty seconds."
@@ -80,29 +80,29 @@ cannot verify from at least 2 reliable outlets.
 The look Abdullah approved: white header bar with date and red progress line, light grid
 background, a NEW visual beat every 2-4 seconds built from REAL photos, every element
 popping in when the voice says it, big UPPERCASE captions. Never a frame with just one
-line of text. Read the docstring at the top of  (all scene types) and copy
- as the starting point.
-- 5-7 scenes per story. Start with  (tag pill + photo card of the main person/place,
+line of text. Read the docstring at the top of `brief/render.py` (all scene types) and copy
+`examples/story-template.json` as the starting point.
+- 5-7 scenes per story. Start with `hero` (tag pill + photo card of the main person/place,
   name pill, subtitle, big navy + red two-line text like "OUT AFTER" / "5 DAYS").
-- Then mix  (1-2 photos with date pills, e.g. "OCT 9 • HIRED", optional counting badge),
-   (each named person gets their own photo card; add a quote card with a SHORT real
-  quote or a plain label),  (photo + tilted stamp text),  (comparison numbers,
-  with photo thumbnails when they are people),  (big counting number, optional
-  people-icon grid),  (homes/people hit),  (check / search / alert),
-   (time card + photo),  (skip on tragic news), and always  last.
+- Then mix `cards` (1-2 photos with date pills, e.g. "OCT 9 • HIRED", optional counting badge),
+  `person` (each named person gets their own photo card; add a quote card with a SHORT real
+  quote or a plain label), `stamp` (photo + tilted stamp text), `bars` (comparison numbers,
+  with photo thumbnails when they are people), `number` (big counting number, optional
+  people-icon grid), `icons` (homes/people hit), `status` (check / search / alert),
+  `time` (time card + photo), `question` (skip on tragic news), and always `cta` last.
 - Every person or place mentioned gets a real photo on screen while it is spoken.
-- Use  word numbers so elements pop in on the matching word.
--  /  /  (exactly 3 short stat cards) /  drive the
+- Use the `*_at` word numbers so elements pop in on the matching word.
+- `head_top` / `head_red` / `stats` (exactly 3 short stat cards) / `cover_label` drive the
   cover and the image post (same look as the original cover with WATCH IN 30 SECONDS).
-- slug: lowercase-dashes +  (NY time).
+- slug: lowercase-dashes + `-HHMM` (NY time).
 
-    python3 brief/render.py /tmp/tmp.YKqCbmoiUm/<slug>.json /tmp/tmp.YKqCbmoiUm/out
+    python3 brief/render.py $W/<slug>.json $W/out
 
 Check it before publishing: make a contact sheet
-() and Read it,
+(`ffmpeg -i <mp4> -vf "fps=1,scale=216:-1,tile=8x4" -frames:v 1 $W/sheet.jpg`) and Read it,
 plus the cover and post images. Fix cut-off text, wrong timing, or a beat with no visual.
-If Commons API returns 429, download the thumbnail directly from upload.wikimedia.org
-(md5 path) after a short wait; license info comes from the search result.
+If the Commons API returns 429, wait a little and download the thumbnail directly from
+upload.wikimedia.org (md5 path); the license comes from the search result.
 
 ## 7. Captions
 Reel caption (also used, slightly shorter, for the image post):
