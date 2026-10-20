@@ -64,6 +64,20 @@ cannot verify from at least 2 reliable outlets.
     python3 brief/commons.py search "Lake Apopka Florida"
     python3 brief/commons.py get "File:<exact title>" $W/<name>.jpg
 
+- PEOPLE WHO APPEAR OFTEN (Trump first): never reuse the same photo again and again. If the
+  person has a folder in `library/` (`python3 brief/library.py list`), ALWAYS take their photos
+  from the library with the rotating picker. It hands out the least recently used photo and
+  logs the use, so every story looks different:
+
+      python3 brief/library.py pick trump $W/trump.jpg           # one photo
+      python3 brief/library.py pick trump $W/trump.jpg --n 2     # two different photos (cover + 2nd scene)
+
+  Use the credit line it prints in the caption, and set `"file_photo": true` for these photos.
+  When the same person is in several scenes of one reel, use different library photos per scene.
+  For other people who keep showing up (a new library folder is worth it after ~3 stories),
+  pick a Commons photo that is NOT the one used in their last story (check state/posted.json).
+  Commit state/photo_usage.json together with state/posted.json at the end of the run.
+
 ## 5. Script and voiceover
 - 75-95 spoken words (about 30-37 seconds). Simple US English, punchy, no jargon.
 - Structure: hook line, 3-4 key facts with numbers, a "why it matters / what's next" line,
