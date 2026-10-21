@@ -78,5 +78,15 @@
     "mood": "emotional",
     "reel_id": "1608249227764378",
     "photo_post_id": "1351686401369959_122110883541505341"
+  },
+  {
+    "time": "2026-10-21T08:04:19-04:00",
+    "date": "October 21",
+    "year": 1944,
+    "slug": "aachen-surrender-1944",
+    "headline": "Aachen falls to American troops",
+    "mood": "tense",
+    "reel_id": "1817866545923435",
+    "photo_post_id": "1351686401369959_122110904391505341"
   }
 ]
