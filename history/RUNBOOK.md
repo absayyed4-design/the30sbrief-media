@@ -1,9 +1,25 @@
-# On This Day USA: scheduled run (3 per day)
+# On This Day USA: scheduled run (2 to 5 per day, quality decides)
 
 Facebook page: On This Day USA (connector page key `onthisdayusa`).
 Audience: US. All times are New York time (America/New_York).
-Runs: 6:52 AM, 8:52 AM, 10:52 AM NY (all morning: "on this day" posts go stale after the day ends). Each run publishes ONE story: one vintage motion-graphics
-Reel (about 35-45 sec) AND one matching image post. No asking, no waiting.
+Runs: 6:52, 7:52, 8:52, 9:52 and 10:52 AM NY (all morning: "on this day" posts go stale
+after the day ends). Each run publishes AT MOST ONE story: one vintage motion-graphics Reel
+(about 35-45 sec) AND one matching image post. No asking, no waiting.
+
+DAILY COUNT: minimum 2, maximum 5 stories per NY day. Count today's entries in
+`state/history_posted.json` (same NY date in "time") before doing anything:
+- 5 or more already today: stop, final message "Daily maximum reached".
+- Fewer than 2 today: this run MUST publish the best available story.
+- 2 to 4 today: publish ONLY if you find a story that passes the QUALITY BAR below.
+  If no candidate passes, publish nothing and end with "Skipped: no top-quality story left today".
+  Skipping is a correct result, not a failure. Never lower the bar just to post.
+
+QUALITY BAR (all must be true):
+1. A strong US story a broad American audience would stop scrolling for: a famous milestone,
+   a genuinely surprising "I never knew that" fact, or a moving human story.
+2. At least 2 good free-license photos of the actual event, place or people (not generic filler).
+3. Every fact confirmed in 2+ reliable sources.
+4. Clearly different from the stories already posted today (different topic and different mood).
 
 ## 0. Setup (every run starts in a fresh cloud session)
 1. If `/home/claude/the30sbrief-media` is missing, attach `absayyed4-design/the30sbrief-media`
@@ -21,10 +37,10 @@ Reel (about 35-45 sec) AND one matching image post. No asking, no waiting.
   plus WebSearch "on this day <Month> <day> American history" (History.com, Britannica,
   Library of Congress "Today in History", National Archives).
 - Never repeat an event already in `state/history_posted.json` (same event in an earlier year counts too).
-- Vary across the three runs: 6:52 AM run = a big famous milestone (wars, presidents, inventions, landmarks);
-  8:52 AM run = a surprising or little-known story (odd firsts, inventions, sports, culture, business);
-  10:52 AM run = a human/emotional story (heroes, disasters with respect, achievements, music, movies).
-  A run outside these times (manual test) picks whichever type today's log is missing.
+- Vary the day: aim for a mix of story types across the day. If today's log has no big famous
+  milestone yet, prefer one (wars, presidents, inventions, landmarks); then a surprising or
+  little-known story (odd firsts, sports, culture, business); then a human/emotional story
+  (heroes, disasters with respect, achievements, music, movies). Pick the type today's log is missing.
 - Avoid: graphic violence focus, partisan political takes on recent events (after 2000 keep it neutral
   and factual), anything that cannot be verified.
 
