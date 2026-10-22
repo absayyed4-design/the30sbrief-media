@@ -1,112 +1,122 @@
 [
-  {
-    "time": "2026-10-19T06:59:38-04:00",
-    "date": "October 19",
-    "year": 1781,
-    "slug": "yorktown-surrender-1781",
-    "headline": "The British surrender at Yorktown",
-    "mood": "proud",
-    "reel_id": "1633227875251354",
-    "photo_post_id": "1351686401369959_122109545895505341"
-  },
-  {
-    "time": "2026-10-19T16:16:23-04:00",
-    "date": "October 19",
-    "year": 1936,
-    "slug": "air-race-around-the-world-1936",
-    "headline": "The great race around the world by air",
-    "mood": "adventure",
-    "reel_id": "2183597882577864",
-    "photo_post_id": "1351686401369959_122109955059505341"
-  },
-  {
-    "time": "2026-10-19T16:26:34-04:00",
-    "date": "October 19",
-    "year": 1943,
-    "slug": "streptomycin-discovery-1943",
-    "headline": "A student finds a weapon against tuberculosis",
-    "mood": "hopeful",
-    "reel_id": "4581781872106118",
-    "photo_post_id": "1351686401369959_122109958029505341"
-  },
-  {
-    "time": "2026-10-20T07:00:05-04:00",
-    "date": "October 20",
-    "year": 1803,
-    "slug": "louisiana-purchase-senate-1803",
-    "headline": "The Senate approves the Louisiana Purchase",
-    "mood": "proud",
-    "reel_id": "1088297510676100",
-    "photo_post_id": "1351686401369959_122110365849505341"
-  },
-  {
-    "time": "2026-10-20T09:07:45-04:00",
-    "date": "October 20",
-    "year": 1818,
-    "slug": "border-treaty-1818",
-    "headline": "A treaty draws the 49th parallel border",
-    "mood": "adventure",
-    "reel_id": "1931610881556171",
-    "photo_post_id": "1351686401369959_122110420263505341"
-  },
-  {
-    "time": "2026-10-21T03:24:16-04:00",
-    "date": "October 21",
-    "year": 1797,
-    "slug": "uss-constitution-launch-1797",
-    "headline": "Old Ironsides is launched in Boston",
-    "mood": "proud",
-    "reel_id": "1651394489659936",
-    "photo_post_id": "1351686401369959_122110789119505341"
-  },
-  {
-    "time": "2026-10-21T03:32:27-04:00",
-    "date": "October 21",
-    "year": 1959,
-    "slug": "guggenheim-museum-opens-1959",
-    "headline": "The Guggenheim spiral opens in New York",
-    "mood": "nostalgic",
-    "reel_id": "1647772973643698",
-    "photo_post_id": "1351686401369959_122110791531505341"
-  },
-  {
-    "time": "2026-10-21T07:06:31-04:00",
-    "date": "October 21",
-    "year": 1929,
-    "slug": "lights-golden-jubilee-1929",
-    "headline": "The night America waited in the dark",
-    "mood": "emotional",
-    "reel_id": "1608249227764378",
-    "photo_post_id": "1351686401369959_122110883541505341"
-  },
-  {
-    "time": "2026-10-21T08:04:19-04:00",
-    "date": "October 21",
-    "year": 1944,
-    "slug": "aachen-surrender-1944",
-    "headline": "Aachen falls to American troops",
-    "mood": "tense",
-    "reel_id": "1817866545923435",
-    "photo_post_id": "1351686401369959_122110904391505341"
-  },
-  {
-    "time": "2026-10-21T11:06:40-04:00",
-    "date": "October 21",
-    "year": 1892,
-    "slug": "pledge-of-allegiance-1892",
-    "headline": "America's schoolchildren say the Pledge",
-    "mood": "hopeful",
-    "reel_id": "1108645321877344",
-    "photo_post_id": "1351686401369959_122110994433505341"
-  },
-  {
-    "time": "2026-10-22T07:13:50-04:00",
-    "date": "October 22",
-    "year": 1962,
-    "slug": "cuban-missile-crisis-address-1962",
-    "headline": "Kennedy reveals missiles in Cuba",
-    "mood": "tense",
-    "reel_id": "2050298749692760",
-    "photo_post_id": "1351686401369959_122111395779505341"
-  }
+    {
+        "time": "2026-10-19T06:59:38-04:00",
+        "date": "October 19",
+        "year": 1781,
+        "slug": "yorktown-surrender-1781",
+        "headline": "The British surrender at Yorktown",
+        "mood": "proud",
+        "reel_id": "1633227875251354",
+        "photo_post_id": "1351686401369959_122109545895505341"
+    },
+    {
+        "time": "2026-10-19T16:16:23-04:00",
+        "date": "October 19",
+        "year": 1936,
+        "slug": "air-race-around-the-world-1936",
+        "headline": "The great race around the world by air",
+        "mood": "adventure",
+        "reel_id": "2183597882577864",
+        "photo_post_id": "1351686401369959_122109955059505341"
+    },
+    {
+        "time": "2026-10-19T16:26:34-04:00",
+        "date": "October 19",
+        "year": 1943,
+        "slug": "streptomycin-discovery-1943",
+        "headline": "A student finds a weapon against tuberculosis",
+        "mood": "hopeful",
+        "reel_id": "4581781872106118",
+        "photo_post_id": "1351686401369959_122109958029505341"
+    },
+    {
+        "time": "2026-10-20T07:00:05-04:00",
+        "date": "October 20",
+        "year": 1803,
+        "slug": "louisiana-purchase-senate-1803",
+        "headline": "The Senate approves the Louisiana Purchase",
+        "mood": "proud",
+        "reel_id": "1088297510676100",
+        "photo_post_id": "1351686401369959_122110365849505341"
+    },
+    {
+        "time": "2026-10-20T09:07:45-04:00",
+        "date": "October 20",
+        "year": 1818,
+        "slug": "border-treaty-1818",
+        "headline": "A treaty draws the 49th parallel border",
+        "mood": "adventure",
+        "reel_id": "1931610881556171",
+        "photo_post_id": "1351686401369959_122110420263505341"
+    },
+    {
+        "time": "2026-10-21T03:24:16-04:00",
+        "date": "October 21",
+        "year": 1797,
+        "slug": "uss-constitution-launch-1797",
+        "headline": "Old Ironsides is launched in Boston",
+        "mood": "proud",
+        "reel_id": "1651394489659936",
+        "photo_post_id": "1351686401369959_122110789119505341"
+    },
+    {
+        "time": "2026-10-21T03:32:27-04:00",
+        "date": "October 21",
+        "year": 1959,
+        "slug": "guggenheim-museum-opens-1959",
+        "headline": "The Guggenheim spiral opens in New York",
+        "mood": "nostalgic",
+        "reel_id": "1647772973643698",
+        "photo_post_id": "1351686401369959_122110791531505341"
+    },
+    {
+        "time": "2026-10-21T07:06:31-04:00",
+        "date": "October 21",
+        "year": 1929,
+        "slug": "lights-golden-jubilee-1929",
+        "headline": "The night America waited in the dark",
+        "mood": "emotional",
+        "reel_id": "1608249227764378",
+        "photo_post_id": "1351686401369959_122110883541505341"
+    },
+    {
+        "time": "2026-10-21T08:04:19-04:00",
+        "date": "October 21",
+        "year": 1944,
+        "slug": "aachen-surrender-1944",
+        "headline": "Aachen falls to American troops",
+        "mood": "tense",
+        "reel_id": "1817866545923435",
+        "photo_post_id": "1351686401369959_122110904391505341"
+    },
+    {
+        "time": "2026-10-21T11:06:40-04:00",
+        "date": "October 21",
+        "year": 1892,
+        "slug": "pledge-of-allegiance-1892",
+        "headline": "America's schoolchildren say the Pledge",
+        "mood": "hopeful",
+        "reel_id": "1108645321877344",
+        "photo_post_id": "1351686401369959_122110994433505341"
+    },
+    {
+        "time": "2026-10-22T07:13:50-04:00",
+        "date": "October 22",
+        "year": 1962,
+        "slug": "cuban-missile-crisis-address-1962",
+        "headline": "Kennedy reveals missiles in Cuba",
+        "mood": "tense",
+        "reel_id": "2050298749692760",
+        "photo_post_id": "1351686401369959_122111395779505341"
+    },
+    {
+        "time": "2026-10-22T09:17:26-04:00",
+        "date": "October 22",
+        "year": 1938,
+        "slug": "first-xerographic-copy-1938",
+        "headline": "The world's first photocopy is made",
+        "mood": "adventure",
+        "reel_id": "1980055775997714",
+        "photo_post_id": "1351686401369959_122111461359505341"
+    }
 ]
