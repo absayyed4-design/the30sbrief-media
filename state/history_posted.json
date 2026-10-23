@@ -148,5 +148,15 @@
     "mood": "hopeful",
     "reel_id": "1437725451842571",
     "photo_post_id": "1351686401369959_122111894631505341"
+  },
+  {
+    "time": "2026-10-23T08:10:09-04:00",
+    "date": "October 23",
+    "year": 1944,
+    "slug": "leyte-gulf-1944",
+    "headline": "The Battle of Leyte Gulf begins",
+    "mood": "tense",
+    "reel_id": "2056821078282121",
+    "photo_post_id": "1351686401369959_122111920569505341"
   }
 ]
