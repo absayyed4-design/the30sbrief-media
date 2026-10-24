@@ -54,5 +54,19 @@
   "motion": "float",
   "music": "quotes/music/rhodes.mp3",
   "reel_id": "1346135010793335"
+ },
+ {
+  "time": "2026-10-24T13:23:00-04:00",
+  "slug": "small-joys-count-20261024-1323",
+  "lines": [
+   "Notice the little things today,",
+   "warm tea, soft light, a kind word.",
+   "Small joys still count."
+  ],
+  "theme": "small joys",
+  "subject": "hedgehog holding a strawberry",
+  "motion": "breathe",
+  "music": "quotes/music/ukulele.mp3",
+  "reel_id": "1825080622980857"
  }
 ]
