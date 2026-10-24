@@ -96,5 +96,19 @@
     "motion": "swing",
     "music": "quotes/music/celesta.mp3",
     "reel_id": "2933434417039286"
+  },
+  {
+    "time": "2026-10-24T19:23:00-04:00",
+    "slug": "stars-keep-watch-20261024-1923",
+    "lines": [
+      "The stars can keep watch tonight.",
+      "Let your shoulders soften,",
+      "and let the quiet hold you."
+    ],
+    "theme": "night calm",
+    "subject": "sleeping fox in a woven basket beside a tiny lantern",
+    "motion": "breathe",
+    "music": "quotes/music/lullaby.mp3",
+    "reel_id": "1782329996373166"
   }
 ]
