@@ -45,7 +45,9 @@ between 0 and 20 so the same track sounds different across reels.
   enough, boundaries, gratitude, hope, morning calm, night calm, friendship, patience, change,
   courage, softness, self-worth.
 - Nothing medical, no therapy advice, no crisis content, no politics or religion.
-- Good example: "Be **gentle** with yourself." / "You are doing the best" / "you can, and that is enough."
+- Every reminder must be NEW: never reuse or lightly reword any line already in
+  `state/gentle_posted.json` or in `quotes/used_lines.txt` (lines from earlier sample reels).
+  Before writing, read both files and make sure the new lines say something different.
 
 ## 3. The illustration
 - One new image per reel with ElevenLabs `creative_generate_image`, model `gpt-image-2.5-sunburst`,
