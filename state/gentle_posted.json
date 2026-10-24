@@ -1,72 +1,86 @@
 [
- {
-  "time": "2026-10-24T07:20:01-04:00",
-  "slug": "kind-to-yourself-20261024-0705",
-  "lines": [
-   "Talk to yourself the way",
-   "you would comfort a friend.",
-   "You deserve your own kindness too."
-  ],
-  "theme": "self-kindness",
-  "subject": "girl on crescent moon hugging a star",
-  "motion": "float",
-  "music": "quotes/music/musicbox.mp3",
-  "reel_id": "1832313661133004"
- },
- {
-  "time": "2026-10-24T07:26:55-04:00",
-  "slug": "slow-morning-softly-20261024-0723",
-  "lines": [
-   "You don't have to rush this morning.",
-   "Let the day arrive softly,",
-   "one slow breath at a time."
-  ],
-  "theme": "morning calm",
-  "subject": "bluebird in a steaming teacup",
-  "motion": "breathe",
-  "music": "quotes/music/harp.mp3",
-  "reel_id": "1126855659923489"
- },
- {
-  "time": "2026-10-24T09:27:00-04:00",
-  "slug": "slowly-still-going-20261024-0923",
-  "lines": [
-   "Going slowly is still going.",
-   "Every little step you take",
-   "is carrying you somewhere good."
-  ],
-  "theme": "slow progress",
-  "subject": "snail with a pink flower growing from its shell",
-  "motion": "sway",
-  "music": "quotes/music/kalimba.mp3",
-  "reel_id": "2219410475320930"
- },
- {
-  "time": "2026-10-24T11:23:00-04:00",
-  "slug": "heavy-day-pass-20261024-1123",
-  "lines": [
-   "This heavy day will pass.",
-   "Hold on softly, you are",
-   "stronger than you feel."
-  ],
-  "theme": "hard days",
-  "subject": "bear cub holding a yellow balloon",
-  "motion": "float",
-  "music": "quotes/music/rhodes.mp3",
-  "reel_id": "1346135010793335"
- },
- {
-  "time": "2026-10-24T13:23:00-04:00",
-  "slug": "small-joys-count-20261024-1323",
-  "lines": [
-   "Notice the little things today,",
-   "warm tea, soft light, a kind word.",
-   "Small joys still count."
-  ],
-  "theme": "small joys",
-  "subject": "hedgehog holding a strawberry",
-  "motion": "breathe",
-  "music": "quotes/music/ukulele.mp3",
-  "reel_id": "1825080622980857"
- }
+  {
+    "time": "2026-10-24T07:20:01-04:00",
+    "slug": "kind-to-yourself-20261024-0705",
+    "lines": [
+      "Talk to yourself the way",
+      "you would comfort a friend.",
+      "You deserve your own kindness too."
+    ],
+    "theme": "self-kindness",
+    "subject": "girl on crescent moon hugging a star",
+    "motion": "float",
+    "music": "quotes/music/musicbox.mp3",
+    "reel_id": "1832313661133004"
+  },
+  {
+    "time": "2026-10-24T07:26:55-04:00",
+    "slug": "slow-morning-softly-20261024-0723",
+    "lines": [
+      "You don't have to rush this morning.",
+      "Let the day arrive softly,",
+      "one slow breath at a time."
+    ],
+    "theme": "morning calm",
+    "subject": "bluebird in a steaming teacup",
+    "motion": "breathe",
+    "music": "quotes/music/harp.mp3",
+    "reel_id": "1126855659923489"
+  },
+  {
+    "time": "2026-10-24T09:27:00-04:00",
+    "slug": "slowly-still-going-20261024-0923",
+    "lines": [
+      "Going slowly is still going.",
+      "Every little step you take",
+      "is carrying you somewhere good."
+    ],
+    "theme": "slow progress",
+    "subject": "snail with a pink flower growing from its shell",
+    "motion": "sway",
+    "music": "quotes/music/kalimba.mp3",
+    "reel_id": "2219410475320930"
+  },
+  {
+    "time": "2026-10-24T11:23:00-04:00",
+    "slug": "heavy-day-pass-20261024-1123",
+    "lines": [
+      "This heavy day will pass.",
+      "Hold on softly, you are",
+      "stronger than you feel."
+    ],
+    "theme": "hard days",
+    "subject": "bear cub holding a yellow balloon",
+    "motion": "float",
+    "music": "quotes/music/rhodes.mp3",
+    "reel_id": "1346135010793335"
+  },
+  {
+    "time": "2026-10-24T13:23:00-04:00",
+    "slug": "small-joys-count-20261024-1323",
+    "lines": [
+      "Notice the little things today,",
+      "warm tea, soft light, a kind word.",
+      "Small joys still count."
+    ],
+    "theme": "small joys",
+    "subject": "hedgehog holding a strawberry",
+    "motion": "breathe",
+    "music": "quotes/music/ukulele.mp3",
+    "reel_id": "1825080622980857"
+  },
+  {
+    "time": "2026-10-24T15:23:00-04:00",
+    "slug": "drift-lighter-20261024-1523",
+    "lines": [
+      "You can set down the things",
+      "you were never meant to carry.",
+      "Let them drift, and feel lighter."
+    ],
+    "theme": "letting go",
+    "subject": "paper boat carrying a pink heart on calm water",
+    "motion": "float",
+    "music": "quotes/music/strings.mp3",
+    "reel_id": "4515760905305819"
+  }
 ]
