@@ -26,5 +26,19 @@
     "motion": "breathe",
     "music": "quotes/music/harp.mp3",
     "reel_id": "1126855659923489"
+  },
+  {
+    "time": "2026-10-24T09:27:00-04:00",
+    "slug": "slowly-still-going-20261024-0923",
+    "lines": [
+      "Going slowly is still going.",
+      "Every little step you take",
+      "is carrying you somewhere good."
+    ],
+    "theme": "slow progress",
+    "subject": "snail with a pink flower growing from its shell",
+    "motion": "sway",
+    "music": "quotes/music/kalimba.mp3",
+    "reel_id": "2219410475320930"
   }
 ]
