@@ -188,5 +188,15 @@
     "mood": "tragic",
     "reel_id": "2300734394045713",
     "photo_post_id": "1351686401369959_122111989011505341"
+  },
+  {
+    "time": "2026-10-24T07:03:06-04:00",
+    "date": "October 24",
+    "year": 1929,
+    "slug": "black-thursday-1929",
+    "headline": "Black Thursday shakes Wall Street",
+    "mood": "tense",
+    "reel_id": "1605145770746491",
+    "photo_post_id": "1351686401369959_122112338703505341"
   }
 ]
