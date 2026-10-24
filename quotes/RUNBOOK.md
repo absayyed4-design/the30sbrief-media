@@ -16,23 +16,17 @@ everything repeats exactly every 6 s, so viewers cannot see where the video rest
    with push access and clone it there. `cd` into it and `git pull`.
 2. ToolSearch-load: FB Pages tools (`list_pages`, `post_reel`, `set_reel_thumbnail`,
    `video_status`, `list_posts`), and the ElevenLabs tools for images and music
-   (`creative_create_flow`, `creative_generate_image`, `creative_generate_in_flow`,
-   `creative_get_flow_run_status`). If the FB Pages connector or the `gentlereminders` page is
+   (`creative_create_flow`, `creative_generate_image`, `creative_get_flow_run_status`). If the FB Pages connector or the `gentlereminders` page is
    missing, render the reel, commit it to `quotes/pending/`, then stop and report it.
 3. `W=$(mktemp -d)`. Read `state/gentle_posted.json` (create `[]` if missing).
    If 5 or more entries already have today's NY date, stop: "Daily maximum reached".
 
-## 1. Music library (only until it has 4 tracks)
-`quotes/music/` holds the soft instrumental beds. If it has fewer than 4 `.mp3` files, generate
-ONE new track this run with ElevenLabs Music (`eleven_music_v2_5`, instrumental, 30 s) using the
-next unused prompt below, download it to `quotes/music/<name>.mp3`, and commit it:
-- `musicbox.mp3`: "Instrumental only, no vocals. Soft warm music box and gentle felt piano, slow and tender, around 75 BPM, cozy and hopeful, steady and calm."
-- `ukulele.mp3`: "Instrumental only, no vocals. Light gentle ukulele and soft glockenspiel, warm and sunny, slow and relaxed, cozy morning feel."
-- `strings.mp3`: "Instrumental only, no vocals. Soft warm strings and slow piano, tender and comforting, quiet and steady, lullaby feel."
-- `guitar.mp3`: "Instrumental only, no vocals. Soft fingerpicked acoustic guitar with light warm pads, calm and peaceful, slow."
-Until a track exists, use `history/music/hopeful.mp3` or `history/music/emotional.mp3`.
-Pick the music track used least recently in `state/gentle_posted.json`. Use `music_start`
-between 0 and 20 so the same track sounds different across reels.
+## 1. Music (reuse the library, never generate in a daily run)
+`quotes/music/` holds 20+ soft instrumental tracks made once with ElevenLabs Music
+(list and prompts in `quotes/music/README.md`). Daily runs NEVER generate music.
+Pick the track used least recently in `state/gentle_posted.json` (never the same track as the
+previous 3 reels), and set `music_start` to a random value between 0 and (track length - 8 s)
+so each reel sounds different. If the folder is empty, use `history/music/hopeful.mp3`.
 
 ## 2. The reminder (the words)
 - Write an ORIGINAL short reminder in your own words. Never copy or attribute quotes to famous
@@ -51,7 +45,7 @@ between 0 and 20 so the same track sounds different across reels.
 
 ## 3. The illustration
 - One new image per reel with ElevenLabs `creative_generate_image`, model `gpt-image-2.5-sunburst`,
-  square, generate 1 image only (one flow per run; reuse its flow_id for the music call too).
+  square, generate 1 image only (one flow per run).
 - Subject matches the reminder: e.g. a girl napping on a crescent moon (rest), a small plant
   pushing through a crack (growth), a cat in a teacup (small joys), a girl reading on a cloud,
   a paper boat on calm water, a snail with a flower on its shell (slow progress), a bear holding
