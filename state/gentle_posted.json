@@ -12,5 +12,19 @@
     "motion": "float",
     "music": "quotes/music/musicbox.mp3",
     "reel_id": "1832313661133004"
+  },
+  {
+    "time": "2026-10-24T07:26:55-04:00",
+    "slug": "slow-morning-softly-20261024-0723",
+    "lines": [
+      "You don't have to rush this morning.",
+      "Let the day arrive softly,",
+      "one slow breath at a time."
+    ],
+    "theme": "morning calm",
+    "subject": "bluebird in a steaming teacup",
+    "motion": "breathe",
+    "music": "quotes/music/harp.mp3",
+    "reel_id": "1126855659923489"
   }
 ]
