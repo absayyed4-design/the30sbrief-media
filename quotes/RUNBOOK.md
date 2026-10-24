@@ -1,9 +1,17 @@
-# Gentle Little Reminders: scheduled loop reel run (5 per day)
+# Gentle Little Reminders: scheduled reel run (8 per day, reels only)
 
 Facebook page: Gentle Little Reminders (connector page key `gentlereminders`).
 Audience: US and English-speaking adults who want soft, kind self-care reminders.
-Runs: 7:23 AM, 10:23 AM, 1:23 PM, 4:23 PM, 7:23 PM New York time. Each run publishes ONE
-6-second seamless loop reel. NO voiceover. No asking, no waiting.
+Runs: every 2 hours from 7:23 AM to 9:23 PM New York time (8 runs). Each run publishes ONE reel.
+Reels only: never post photos or image posts on this page. No asking, no waiting.
+
+BACKLOG FIRST CHECK: `quotes/backlog/` holds older finished reels (a different "list" format,
+with voiceover) that also need to go out. On the 11:23 AM and 5:23 PM runs, if `quotes/backlog/`
+has any `.mp4`, publish the OLDEST one (name order) instead of making a new loop reel: use the
+caption in the matching `.txt` file (same name), skip the cover step if there is no matching
+`-cover.jpg`, then `git rm` that mp4/txt/jpg, record it in `state/gentle_posted.json` with
+`"backlog": true`, commit, push and stop. All other runs make a new loop reel as below
+(NO voiceover on new reels).
 
 The approved look (Format "06 gentle loop"): warm watercolor-paper background, one whimsical
 hand-drawn illustration in the center that gently moves (float, swing, sway, breathe or spin),
@@ -19,7 +27,7 @@ everything repeats exactly every 6 s, so viewers cannot see where the video rest
    (`creative_create_flow`, `creative_generate_image`, `creative_get_flow_run_status`). If the FB Pages connector or the `gentlereminders` page is
    missing, render the reel, commit it to `quotes/pending/`, then stop and report it.
 3. `W=$(mktemp -d)`. Read `state/gentle_posted.json` (create `[]` if missing).
-   If 5 or more entries already have today's NY date, stop: "Daily maximum reached".
+   If 8 or more entries already have today's NY date, stop: "Daily maximum reached".
 
 ## 1. Music (reuse the library, never generate in a daily run)
 `quotes/music/` holds 20+ soft instrumental tracks made once with ElevenLabs Music
@@ -95,6 +103,6 @@ keep the last 1000, commit with any new music track, push.
 Final message: the reminder text + reel id.
 
 ## Hard rules
-- No voiceover. One reel per run, max 5 per NY day.
+- No voiceover on new reels. One reel per run, max 8 per NY day. Reels only, no photo posts.
 - Never reply to comments. Never post anything that is not an original gentle reminder.
 - No em dashes. Never put tokens or secrets in files, captions or logs.
