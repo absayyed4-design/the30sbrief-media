@@ -138,5 +138,19 @@
     "motion": "sway",
     "music": "quotes/music/guitar.mp3",
     "reel_id": "1160655229857878"
+  },
+  {
+    "time": "2026-10-25T11:23:00-04:00",
+    "slug": "no-reason-to-rest-20261025-1125",
+    "lines": [
+      "You don't need a reason to rest.",
+      "Let the world wait a little",
+      "while you catch your breath."
+    ],
+    "theme": "rest",
+    "subject": "little girl napping on a fluffy cloud hugging a pillow",
+    "motion": "breathe",
+    "music": "quotes/music/pads.mp3",
+    "reel_id": "1827265734939851"
   }
 ]
