@@ -4,7 +4,8 @@ Facebook page: On This Day USA (connector page key `onthisdayusa`).
 Audience: US. All times are New York time (America/New_York).
 Runs: 6:52, 7:52, 8:52, 9:52 and 10:52 AM NY (all morning: "on this day" posts go stale
 after the day ends). Each run publishes AT MOST ONE story: one vintage motion-graphics Reel
-(about 35-45 sec) AND one matching image post. No asking, no waiting.
+(about 35-45 sec). REELS ONLY: never publish photo or image posts on this page (no post_photo).
+No asking, no waiting.
 
 DAILY COUNT: minimum 2, maximum 5 stories per NY day. Count today's entries in
 `state/history_posted.json` (same NY date in "time") before doing anything:
@@ -25,7 +26,7 @@ QUALITY BAR (all must be true):
 1. If `/home/claude/the30sbrief-media` is missing, attach `absayyed4-design/the30sbrief-media`
    with push access and clone it there. `cd` into it and `git pull`.
 2. ToolSearch-load: FB Pages connector tools (`list_pages`, `post_reel`, `set_reel_thumbnail`,
-   `video_status`, `post_photo`, `list_posts`), ElevenLabs `creative_generate_speech` +
+   `video_status`, `list_posts`), ElevenLabs `creative_generate_speech` +
    `creative_get_flow_run_status`, WebSearch, WebFetch.
    If the FB Pages connector or the `onthisdayusa` page is missing, render the story, then stop and report it.
 3. `W=$(mktemp -d)`. Read `state/history_posted.json` (stories already covered; create `[]` if missing).
@@ -88,7 +89,7 @@ Write `$W/<slug>.json` (see the docstring at the top of `history/render.py`):
 
       python3 history/render.py $W/<slug>.json $W/out
 
-Look at the cover and post images and 2-3 video frames before publishing
+Look at the cover image and 2-3 video frames before publishing
 (`ffmpeg -i <mp4> -vf "select='eq(n\,90)+eq(n\,500)',scale=360:-1,tile=2x1" -frames:v 1 $W/f.jpg`).
 Fix overlapping or cut text by shortening it.
 
@@ -109,18 +110,17 @@ Fix overlapping or cut text by shortening it.
 No em dashes anywhere.
 
 ## 7. Publish (page key `onthisdayusa`)
-1. `python3 brief/host.py $W/out/<slug>.mp4 $W/out/<slug>-cover.jpg $W/out/<slug>-post.jpg`
+1. `python3 brief/host.py $W/out/<slug>.mp4 $W/out/<slug>-cover.jpg`
 2. `post_reel` (video_url, description = caption) -> video_id.
 3. `set_reel_thumbnail` (video_id, cover URL).
-4. `post_photo` (post image URL, same caption).
-5. `video_status` once after ~60 seconds.
+4. `video_status` once after ~60 seconds.
 If a step fails, retry that step once; check `list_posts` first so nothing is posted twice.
 
 ## 8. Record and finish
 Append to `state/history_posted.json`:
-`{"time": "<ISO NY time>", "date": "<Month day>", "year", "slug", "headline", "mood", "reel_id", "photo_post_id"}`,
+`{"time": "<ISO NY time>", "date": "<Month day>", "year", "slug", "headline", "mood", "reel_id"}`,
 keep the last 1000, then `git add state/history_posted.json && git commit && git push`.
-Final message: headline + year + reel id + photo post id.
+Final message: headline + year + reel id.
 
 ## Hard rules
 - Never reply to comments or post corrections on the page; report concerns in the final message only.
