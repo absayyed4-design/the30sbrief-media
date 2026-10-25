@@ -124,5 +124,19 @@
     "motion": "float",
     "music": "quotes/music/morning.mp3",
     "reel_id": "1581277486658280"
+  },
+  {
+    "time": "2026-10-25T09:23:00-04:00",
+    "slug": "quiet-little-yes-20261025-0923",
+    "lines": [
+      "You can be scared and still",
+      "try anyway. Courage is often",
+      "just a quiet little yes."
+    ],
+    "theme": "courage",
+    "subject": "tiny mouse holding a dandelion puff like an umbrella",
+    "motion": "sway",
+    "music": "quotes/music/guitar.mp3",
+    "reel_id": "1160655229857878"
   }
 ]
