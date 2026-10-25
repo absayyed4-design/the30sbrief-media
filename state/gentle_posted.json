@@ -110,5 +110,19 @@
     "motion": "breathe",
     "music": "quotes/music/lullaby.mp3",
     "reel_id": "1782329996373166"
+  },
+  {
+    "time": "2026-10-25T07:23:00-04:00",
+    "slug": "good-on-its-way-20261025-0723",
+    "lines": [
+      "Something good is still",
+      "on its way to you.",
+      "Keep a little light on."
+    ],
+    "theme": "hope",
+    "subject": "sleepy kitten in a tulip hot air balloon",
+    "motion": "float",
+    "music": "quotes/music/morning.mp3",
+    "reel_id": "1581277486658280"
   }
 ]
