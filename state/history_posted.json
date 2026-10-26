@@ -287,5 +287,14 @@
     "headline": "The Erie Canal opens across New York",
     "mood": "proud",
     "reel_id": "1391439679425575"
+  },
+  {
+    "time": "2026-10-26T08:05:00-04:00",
+    "date": "October 26",
+    "year": 1861,
+    "slug": "pony-express-ends-1861",
+    "headline": "The Pony Express rides into history",
+    "mood": "nostalgic",
+    "reel_id": "1520078653303378"
   }
 ]
