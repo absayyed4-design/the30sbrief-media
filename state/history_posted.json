@@ -296,5 +296,14 @@
     "headline": "The Pony Express rides into history",
     "mood": "nostalgic",
     "reel_id": "1520078653303378"
+  },
+  {
+    "time": "2026-10-26T09:08:29-04:00",
+    "date": "October 26",
+    "year": 1958,
+    "slug": "pan-am-707-paris-1958",
+    "headline": "Pan Am's first jet flight to Paris",
+    "mood": "adventure",
+    "reel_id": "2565603883951033"
   }
 ]
