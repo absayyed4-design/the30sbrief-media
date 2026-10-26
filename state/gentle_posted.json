@@ -1,156 +1,170 @@
 [
-  {
-    "time": "2026-10-24T07:20:01-04:00",
-    "slug": "kind-to-yourself-20261024-0705",
-    "lines": [
-      "Talk to yourself the way",
-      "you would comfort a friend.",
-      "You deserve your own kindness too."
-    ],
-    "theme": "self-kindness",
-    "subject": "girl on crescent moon hugging a star",
-    "motion": "float",
-    "music": "quotes/music/musicbox.mp3",
-    "reel_id": "1832313661133004"
-  },
-  {
-    "time": "2026-10-24T07:26:55-04:00",
-    "slug": "slow-morning-softly-20261024-0723",
-    "lines": [
-      "You don't have to rush this morning.",
-      "Let the day arrive softly,",
-      "one slow breath at a time."
-    ],
-    "theme": "morning calm",
-    "subject": "bluebird in a steaming teacup",
-    "motion": "breathe",
-    "music": "quotes/music/harp.mp3",
-    "reel_id": "1126855659923489"
-  },
-  {
-    "time": "2026-10-24T09:27:00-04:00",
-    "slug": "slowly-still-going-20261024-0923",
-    "lines": [
-      "Going slowly is still going.",
-      "Every little step you take",
-      "is carrying you somewhere good."
-    ],
-    "theme": "slow progress",
-    "subject": "snail with a pink flower growing from its shell",
-    "motion": "sway",
-    "music": "quotes/music/kalimba.mp3",
-    "reel_id": "2219410475320930"
-  },
-  {
-    "time": "2026-10-24T11:23:00-04:00",
-    "slug": "heavy-day-pass-20261024-1123",
-    "lines": [
-      "This heavy day will pass.",
-      "Hold on softly, you are",
-      "stronger than you feel."
-    ],
-    "theme": "hard days",
-    "subject": "bear cub holding a yellow balloon",
-    "motion": "float",
-    "music": "quotes/music/rhodes.mp3",
-    "reel_id": "1346135010793335"
-  },
-  {
-    "time": "2026-10-24T13:23:00-04:00",
-    "slug": "small-joys-count-20261024-1323",
-    "lines": [
-      "Notice the little things today,",
-      "warm tea, soft light, a kind word.",
-      "Small joys still count."
-    ],
-    "theme": "small joys",
-    "subject": "hedgehog holding a strawberry",
-    "motion": "breathe",
-    "music": "quotes/music/ukulele.mp3",
-    "reel_id": "1825080622980857"
-  },
-  {
-    "time": "2026-10-24T15:23:00-04:00",
-    "slug": "drift-lighter-20261024-1523",
-    "lines": [
-      "You can set down the things",
-      "you were never meant to carry.",
-      "Let them drift, and feel lighter."
-    ],
-    "theme": "letting go",
-    "subject": "paper boat carrying a pink heart on calm water",
-    "motion": "float",
-    "music": "quotes/music/strings.mp3",
-    "reel_id": "4515760905305819"
-  },
-  {
-    "time": "2026-10-24T17:23:00-04:00",
-    "slug": "already-enough-20261024-1723",
-    "lines": [
-      "You do not have to earn your place.",
-      "Just as you are, right now,",
-      "you are already enough."
-    ],
-    "theme": "being enough",
-    "subject": "bluebird on a little wooden swing",
-    "motion": "swing",
-    "music": "quotes/music/celesta.mp3",
-    "reel_id": "2933434417039286"
-  },
-  {
-    "time": "2026-10-24T19:23:00-04:00",
-    "slug": "stars-keep-watch-20261024-1923",
-    "lines": [
-      "The stars can keep watch tonight.",
-      "Let your shoulders soften,",
-      "and let the quiet hold you."
-    ],
-    "theme": "night calm",
-    "subject": "sleeping fox in a woven basket beside a tiny lantern",
-    "motion": "breathe",
-    "music": "quotes/music/lullaby.mp3",
-    "reel_id": "1782329996373166"
-  },
-  {
-    "time": "2026-10-25T07:23:00-04:00",
-    "slug": "good-on-its-way-20261025-0723",
-    "lines": [
-      "Something good is still",
-      "on its way to you.",
-      "Keep a little light on."
-    ],
-    "theme": "hope",
-    "subject": "sleepy kitten in a tulip hot air balloon",
-    "motion": "float",
-    "music": "quotes/music/morning.mp3",
-    "reel_id": "1581277486658280"
-  },
-  {
-    "time": "2026-10-25T09:23:00-04:00",
-    "slug": "quiet-little-yes-20261025-0923",
-    "lines": [
-      "You can be scared and still",
-      "try anyway. Courage is often",
-      "just a quiet little yes."
-    ],
-    "theme": "courage",
-    "subject": "tiny mouse holding a dandelion puff like an umbrella",
-    "motion": "sway",
-    "music": "quotes/music/guitar.mp3",
-    "reel_id": "1160655229857878"
-  },
-  {
-    "time": "2026-10-25T11:23:00-04:00",
-    "slug": "no-reason-to-rest-20261025-1125",
-    "lines": [
-      "You don't need a reason to rest.",
-      "Let the world wait a little",
-      "while you catch your breath."
-    ],
-    "theme": "rest",
-    "subject": "little girl napping on a fluffy cloud hugging a pillow",
-    "motion": "breathe",
-    "music": "quotes/music/pads.mp3",
-    "reel_id": "1827265734939851"
-  }
+ {
+  "time": "2026-10-24T07:20:01-04:00",
+  "slug": "kind-to-yourself-20261024-0705",
+  "lines": [
+   "Talk to yourself the way",
+   "you would comfort a friend.",
+   "You deserve your own kindness too."
+  ],
+  "theme": "self-kindness",
+  "subject": "girl on crescent moon hugging a star",
+  "motion": "float",
+  "music": "quotes/music/musicbox.mp3",
+  "reel_id": "1832313661133004"
+ },
+ {
+  "time": "2026-10-24T07:26:55-04:00",
+  "slug": "slow-morning-softly-20261024-0723",
+  "lines": [
+   "You don't have to rush this morning.",
+   "Let the day arrive softly,",
+   "one slow breath at a time."
+  ],
+  "theme": "morning calm",
+  "subject": "bluebird in a steaming teacup",
+  "motion": "breathe",
+  "music": "quotes/music/harp.mp3",
+  "reel_id": "1126855659923489"
+ },
+ {
+  "time": "2026-10-24T09:27:00-04:00",
+  "slug": "slowly-still-going-20261024-0923",
+  "lines": [
+   "Going slowly is still going.",
+   "Every little step you take",
+   "is carrying you somewhere good."
+  ],
+  "theme": "slow progress",
+  "subject": "snail with a pink flower growing from its shell",
+  "motion": "sway",
+  "music": "quotes/music/kalimba.mp3",
+  "reel_id": "2219410475320930"
+ },
+ {
+  "time": "2026-10-24T11:23:00-04:00",
+  "slug": "heavy-day-pass-20261024-1123",
+  "lines": [
+   "This heavy day will pass.",
+   "Hold on softly, you are",
+   "stronger than you feel."
+  ],
+  "theme": "hard days",
+  "subject": "bear cub holding a yellow balloon",
+  "motion": "float",
+  "music": "quotes/music/rhodes.mp3",
+  "reel_id": "1346135010793335"
+ },
+ {
+  "time": "2026-10-24T13:23:00-04:00",
+  "slug": "small-joys-count-20261024-1323",
+  "lines": [
+   "Notice the little things today,",
+   "warm tea, soft light, a kind word.",
+   "Small joys still count."
+  ],
+  "theme": "small joys",
+  "subject": "hedgehog holding a strawberry",
+  "motion": "breathe",
+  "music": "quotes/music/ukulele.mp3",
+  "reel_id": "1825080622980857"
+ },
+ {
+  "time": "2026-10-24T15:23:00-04:00",
+  "slug": "drift-lighter-20261024-1523",
+  "lines": [
+   "You can set down the things",
+   "you were never meant to carry.",
+   "Let them drift, and feel lighter."
+  ],
+  "theme": "letting go",
+  "subject": "paper boat carrying a pink heart on calm water",
+  "motion": "float",
+  "music": "quotes/music/strings.mp3",
+  "reel_id": "4515760905305819"
+ },
+ {
+  "time": "2026-10-24T17:23:00-04:00",
+  "slug": "already-enough-20261024-1723",
+  "lines": [
+   "You do not have to earn your place.",
+   "Just as you are, right now,",
+   "you are already enough."
+  ],
+  "theme": "being enough",
+  "subject": "bluebird on a little wooden swing",
+  "motion": "swing",
+  "music": "quotes/music/celesta.mp3",
+  "reel_id": "2933434417039286"
+ },
+ {
+  "time": "2026-10-24T19:23:00-04:00",
+  "slug": "stars-keep-watch-20261024-1923",
+  "lines": [
+   "The stars can keep watch tonight.",
+   "Let your shoulders soften,",
+   "and let the quiet hold you."
+  ],
+  "theme": "night calm",
+  "subject": "sleeping fox in a woven basket beside a tiny lantern",
+  "motion": "breathe",
+  "music": "quotes/music/lullaby.mp3",
+  "reel_id": "1782329996373166"
+ },
+ {
+  "time": "2026-10-25T07:23:00-04:00",
+  "slug": "good-on-its-way-20261025-0723",
+  "lines": [
+   "Something good is still",
+   "on its way to you.",
+   "Keep a little light on."
+  ],
+  "theme": "hope",
+  "subject": "sleepy kitten in a tulip hot air balloon",
+  "motion": "float",
+  "music": "quotes/music/morning.mp3",
+  "reel_id": "1581277486658280"
+ },
+ {
+  "time": "2026-10-25T09:23:00-04:00",
+  "slug": "quiet-little-yes-20261025-0923",
+  "lines": [
+   "You can be scared and still",
+   "try anyway. Courage is often",
+   "just a quiet little yes."
+  ],
+  "theme": "courage",
+  "subject": "tiny mouse holding a dandelion puff like an umbrella",
+  "motion": "sway",
+  "music": "quotes/music/guitar.mp3",
+  "reel_id": "1160655229857878"
+ },
+ {
+  "time": "2026-10-25T11:23:00-04:00",
+  "slug": "no-reason-to-rest-20261025-1125",
+  "lines": [
+   "You don't need a reason to rest.",
+   "Let the world wait a little",
+   "while you catch your breath."
+  ],
+  "theme": "rest",
+  "subject": "little girl napping on a fluffy cloud hugging a pillow",
+  "motion": "breathe",
+  "music": "quotes/music/pads.mp3",
+  "reel_id": "1827265734939851"
+ },
+ {
+  "time": "2026-10-26T09:23:00-04:00",
+  "slug": "roots-grow-quietly-20261026-0941",
+  "lines": [
+   "You are growing, even on days",
+   "it does not look like it.",
+   "Roots grow quietly first."
+  ],
+  "theme": "growth",
+  "subject": "tiny sprout with a ladybug pushing through a cracked cobblestone",
+  "motion": "sway",
+  "music": "quotes/music/marimba.mp3",
+  "reel_id": "3550684541777231"
+ }
 ]
