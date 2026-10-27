@@ -1,0 +1,18 @@
+{
+  "slug": "nyc-subway-opens-1904",
+  "date": "October 27",
+  "year": 1904,
+  "headline": "New York City's subway opens",
+  "voice_mp3": "/tmp/claude-0/-home-claude-the30sbrief-media/9bfeb998-128d-5338-a86c-2b0e9e145fba/scratchpad/w/nyc-subway-opens-1904.mp3",
+  "mood": "proud",
+  "post_facts": ["9.1 miles, 28 stations, City Hall to Harlem", "The fare: one nickel", "Over 100,000 riders on day one"],
+  "scenes": [
+    {"type": "intro", "text": "[calmly] On this day, in nineteen oh-four... New York opened its first subway."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude-the30sbrief-media/9bfeb998-128d-5338-a86c-2b0e9e145fba/scratchpad/w/cityhall.jpg", "label": "City Hall, NYC", "caption": "City Hall station, early 1900s", "text": "[thoughtfully] Mayor George McClellan drove the very first train from City Hall."},
+    {"type": "stat", "value": 28, "suffix": "", "label": "stations over 9.1 miles, City Hall to Harlem", "text": "[calmly] Twenty-eight stations, over nine miles, all the way to Harlem."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude-the30sbrief-media/9bfeb998-128d-5338-a86c-2b0e9e145fba/scratchpad/w/construction.jpg", "label": "Manhattan, 1904", "caption": "Under construction, 1904", "text": "[softly] A ride cost one nickel... and over one hundred thousand people rode that first night."},
+    {"type": "text", "title": "One line became a giant", "image": "/tmp/claude-0/-home-claude-the30sbrief-media/9bfeb998-128d-5338-a86c-2b0e9e145fba/scratchpad/w/cityhall.jpg", "text": "[thoughtfully] That line grew into one of the world's largest subways."},
+    {"type": "question", "title": "Have you ever ridden it?", "text": "[gently] Have you ever ridden it?"},
+    {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+  ]
+}
