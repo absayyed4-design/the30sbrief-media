@@ -1,0 +1,18 @@
+{
+  "slug": "statue-of-liberty-dedication-1886",
+  "date": "October 28",
+  "year": 1886,
+  "headline": "The Statue of Liberty is dedicated",
+  "voice_mp3": "/tmp/claude-0/-home-claude-the30sbrief-media/a18b3f7f-f0db-5212-88fa-114d83acf7af/scratchpad/w/statue-of-liberty-dedication-1886.mp3",
+  "mood": "proud",
+  "post_facts": ["A gift from the people of France", "151 feet of copper in New York Harbor", "It sparked NYC's first ticker-tape parade"],
+  "scenes": [
+    {"type": "intro", "text": "[calmly] On this day, in eighteen eighty-six... America unveiled the Statue of Liberty."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude-the30sbrief-media/a18b3f7f-f0db-5212-88fa-114d83acf7af/scratchpad/w/moran.jpg", "label": "New York Harbor", "caption": "Painting by Edward Moran, 1886", "text": "[thoughtfully] President Grover Cleveland dedicated this gift from France in New York Harbor."},
+    {"type": "stat", "value": 151, "suffix": " ft", "label": "of copper, from base to torch", "text": "[calmly] One hundred fifty-one feet of copper."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude-the30sbrief-media/a18b3f7f-f0db-5212-88fa-114d83acf7af/scratchpad/w/head.jpg", "label": "Paris, 1878", "caption": "Her head on display in Paris", "text": "[softly] Her sculptor, Bartholdi, waited inside her crown... and dropped the French flag from her face too soon."},
+    {"type": "text", "title": "NYC's first ticker-tape parade", "image": "/tmp/claude-0/-home-claude-the30sbrief-media/a18b3f7f-f0db-5212-88fa-114d83acf7af/scratchpad/w/island.jpg", "text": "[thoughtfully] The day also gave New York its first ticker-tape parade."},
+    {"type": "question", "title": "Have you seen her up close?", "text": "[gently] Have you ever seen her up close?"},
+    {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+  ]
+}

@@ -1,0 +1,20 @@
+Status: rendered and hosted, NOT published (FB Pages connector token invalid, 2026-10-28 06:53 NY).
+Only valid to post on October 28 (on this day). Do not add to state/history_posted.json until published.
+Note: the media branch is replaced by every host.py call; if these URLs 404, re-render from the json (voice mp3 is in the ElevenLabs flow bwSVt93QkDjANCEJg8De).
+video_url: https://raw.githubusercontent.com/absayyed4-design/the30sbrief-media/media/statue-of-liberty-dedication-1886.mp4
+cover_url: https://raw.githubusercontent.com/absayyed4-design/the30sbrief-media/media/statue-of-liberty-dedication-1886-cover.jpg
+
+Caption:
+The day Lady Liberty was unveiled to America 🗽 📜
+
+On October 28, 1886, President Grover Cleveland dedicated the Statue of Liberty in New York Harbor, a gift from the people of France. The copper statue stands 151 feet tall. Sculptor Auguste Bartholdi waited inside her crown to drop the French flag from her face and let it fall early, in the middle of a speech. That morning's parade gave New York City its first ticker-tape parade.
+
+Have you ever seen her up close?
+
+Sources: National Park Service, Wikipedia, Britannica
+Photo: Edward Moran / Wikimedia Commons (Public domain)
+Photo: Albert Fernique / Wikimedia Commons (Public domain)
+Photo: Rijksmuseum / Wikimedia Commons (CC0)
+
+Follow On This Day USA for a new story from American history, every day.
+#onthisday #history #americanhistory #ushistory #todayinhistory #statueofliberty #newyork #1886 #ladyliberty
