@@ -1,4 +1,4 @@
-Status: rendered and hosted, NOT published (FB Pages connector token invalid, 2026-10-28 06:53 NY).
+Status: rendered and hosted, NOT published (FB Pages connector token invalid, 2026-10-28 06:53 NY; still invalid at 08:55 NY retry).
 Only valid to post on October 28 (on this day). Do not add to state/history_posted.json until published.
 Note: the media branch is replaced by every host.py call; if these URLs 404, re-render from the json (voice mp3 is in the ElevenLabs flow bwSVt93QkDjANCEJg8De).
 video_url: https://raw.githubusercontent.com/absayyed4-design/the30sbrief-media/media/statue-of-liberty-dedication-1886.mp4
