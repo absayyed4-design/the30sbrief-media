@@ -1,0 +1,55 @@
+{
+ "slug": "john-glenn-returns-1998",
+ "date": "October 29",
+ "year": 1998,
+ "headline": "John Glenn returns to space at 77",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/s/john-glenn-returns-1998.mp3",
+ "mood": "proud",
+ "post_facts": [
+  "Launched on Space Shuttle Discovery",
+  "36 years after his 1962 orbit",
+  "Oldest person in space at the time"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen ninety-eight... John Glenn returned to space, at seventy-seven."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/s/g_launch.jpg",
+   "label": "Kennedy Space Center",
+   "caption": "Space Shuttle Discovery, mission STS-95",
+   "text": "[thoughtfully] He launched aboard Space Shuttle Discovery."
+  },
+  {
+   "type": "stat",
+   "value": 36,
+   "suffix": " years",
+   "label": "after his first orbit, in 1962",
+   "text": "[calmly] Thirty-six years earlier, he had become the first American to orbit the Earth."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/s/g_1962.jpg",
+   "label": "Friendship 7, 1962",
+   "caption": "Glenn in his Mercury spacesuit",
+   "text": "[softly] He was now the oldest person yet to fly in space."
+  },
+  {
+   "type": "text",
+   "title": "A flying lab for aging",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/s/g_shuttle.jpg",
+   "text": "[thoughtfully] For nine days, doctors studied how spaceflight affects an aging body."
+  },
+  {
+   "type": "question",
+   "title": "Would you go to space at 77?",
+   "text": "[gently] Would you go to space at seventy-seven?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

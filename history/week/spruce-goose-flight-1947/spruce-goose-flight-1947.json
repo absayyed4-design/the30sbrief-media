@@ -1,0 +1,18 @@
+{
+  "slug": "spruce-goose-flight-1947",
+  "date": "November 2",
+  "year": 1947,
+  "headline": "The Spruce Goose flies for the only time",
+  "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/spruce-goose-flight-1947.mp3",
+  "mood": "adventure",
+  "post_facts": ["A 320-foot wingspan, built mostly of birch", "About 70 feet up, for about a mile", "It never flew again"],
+  "scenes": [
+    {"type": "intro", "text": "[calmly] On this day, in nineteen forty-seven... Howard Hughes flew a giant wooden flying boat."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/sg_sdasm.jpg", "label": "H-4 Hercules", "caption": "The giant flying boat on the water", "title": "Built mostly of birch, not spruce", "text": "[thoughtfully] The H-4 Hercules, nicknamed the Spruce Goose, was built mostly of birch."},
+    {"type": "stat", "value": 320, "suffix": " ft", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/sg_museum.jpg", "label": "from wingtip to wingtip", "text": "[calmly] Its wings stretched three hundred twenty feet."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/sg_hughes.jpg", "label": "Howard Hughes", "caption": "Hughes was at the controls himself", "title": "About 70 feet up, for about a mile", "text": "[softly] Over Long Beach harbor, it rose about seventy feet... and flew about a mile."},
+    {"type": "text", "title": "It never flew again", "text": "[thoughtfully] It never flew again. Today it rests in an Oregon museum."},
+    {"type": "question", "title": "Would you have climbed aboard?", "text": "[gently] Would you have climbed aboard?"},
+    {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+  ]
+}

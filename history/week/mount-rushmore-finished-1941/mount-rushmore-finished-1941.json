@@ -1,0 +1,18 @@
+{
+  "slug": "mount-rushmore-finished-1941",
+  "date": "October 31",
+  "year": 1941,
+  "headline": "Work on Mount Rushmore comes to an end",
+  "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/mount-rushmore-finished-1941.mp3",
+  "mood": "proud",
+  "post_facts": ["14 years of blasting and drilling", "About 400 workers, and not one died", "Lincoln Borglum finished his father's work"],
+  "scenes": [
+    {"type": "intro", "text": "[calmly] On this day, in nineteen forty-one... the carving of Mount Rushmore came to an end."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/ru_nose.jpg", "label": "Black Hills, S. Dakota", "caption": "Carvers at work high on the mountain", "title": "14 years of dynamite and drills", "text": "[thoughtfully] For fourteen years, crews blasted and drilled a South Dakota mountain."},
+    {"type": "stat", "value": 400, "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/ru_unrest.jpg", "label": "workers, and not one died", "text": "[calmly] About four hundred workers... and not one died."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/ru_borglum.jpg", "label": "Gutzon Borglum", "caption": "The sculptor died in March 1941", "title": "His son Lincoln finished the job", "text": "[softly] Sculptor Gutzon Borglum had died months earlier. His son, Lincoln, finished the job."},
+    {"type": "text", "title": "When the money ran out, the work stopped", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/ru_today.jpg", "text": "[thoughtfully] When the money ran out, the work stopped for good."},
+    {"type": "question", "title": "Have you seen it in person?", "text": "[gently] Have you ever seen it in person?"},
+    {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+  ]
+}

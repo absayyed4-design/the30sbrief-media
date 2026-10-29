@@ -1,0 +1,50 @@
+{
+ "slug": "dewey-defeats-truman-1948",
+ "date": "November 3",
+ "year": 1948,
+ "headline": "The headline that got it wrong",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/dewey-defeats-truman-1948.mp3",
+ "mood": "nostalgic",
+ "post_facts": [
+  "A strike forced an early press run",
+  "About 150,000 copies were printed",
+  "Truman had won the election"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen forty-eight... a Chicago paper printed a headline it could never take back.",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/ddt.jpg"
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/dewey.jpg",
+   "label": "Thomas E. Dewey",
+   "caption": "Republican nominee, 1948",
+   "text": "[thoughtfully] A strike forced an early deadline, and the polls favored Thomas Dewey."
+  },
+  {
+   "type": "stat",
+   "value": 150000,
+   "suffix": "",
+   "label": "copies printed with the wrong headline",
+   "text": "[calmly] About one hundred fifty thousand copies read... Dewey Defeats Truman."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/ddt.jpg",
+   "label": "St. Louis Union Station",
+   "caption": "President Truman holds up the paper",
+   "text": "[softly] But Harry Truman had won. In St. Louis, he held the paper up for the cameras."
+  },
+  {
+   "type": "question",
+   "title": "Have you seen this famous photo?",
+   "text": "[gently] Have you ever seen this famous photo?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{"slug":"iran-hostage-crisis-1979","date":"November 4","year":1979,"headline":"The Iran hostage crisis begins","voice_mp3":"/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/iran-hostage-crisis-1979.mp3","mood":"tense",
+"post_facts":["The U.S. Embassy in Tehran was seized","52 Americans were held for 444 days","Freed January 20, 1981"],
+"scenes":[
+{"type":"intro","text":"[gravely] On this day, in nineteen seventy-nine... students in Tehran stormed the United States Embassy."},
+{"type":"photo","image":"/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/embassy.jpg","label":"U.S. Embassy, Tehran","caption":"November 1979","text":"[solemnly] Dozens of Americans were taken captive inside."},
+{"type":"stat","value":444,"suffix":" days","label":"52 Americans held hostage","text":"[solemnly] Fifty-two of them would be held for four hundred forty-four days."},
+{"type":"photo","image":"/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/wiesbaden.jpg","label":"Wiesbaden, West Germany","caption":"Former hostages after their release, 1981","text":"[softly] They were finally freed on January twentieth, nineteen eighty-one... minutes after Ronald Reagan was sworn in."},
+{"type":"text","title":"All 52 came home","image":"/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/return.jpg","text":"[gently] All fifty-two came home, to a nation that had waited with them."},
+{"type":"cta","text":"[calmly] Follow On This Day USA... for a new story from history, every day."}]}

@@ -1,0 +1,48 @@
+{
+ "slug": "war-of-the-worlds-1938",
+ "date": "October 30",
+ "year": 1938,
+ "headline": "The War of the Worlds hits the airwaves",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/s/war-of-the-worlds-1938.mp3",
+ "mood": "mysterious",
+ "post_facts": [
+  "Orson Welles, 23, staged it on CBS",
+  "About 2% of people surveyed were listening",
+  "Historians call the mass panic overblown"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen thirty-eight... Martians invaded New Jersey. On the radio."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/s/w_studio.jpg",
+   "label": "Orson Welles, 1938",
+   "caption": "Welles at the radio microphone",
+   "text": "[thoughtfully] Twenty-three-year-old Orson Welles staged The War of the Worlds on CBS, as fake news bulletins."
+  },
+  {
+   "type": "stat",
+   "value": 2,
+   "suffix": "%",
+   "label": "of people surveyed tuned in",
+   "text": "[calmly] Newspapers said the nation panicked. But a survey found only about two percent were listening."
+  },
+  {
+   "type": "text",
+   "title": "A panic made by newspapers?",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/s/w_press.jpg",
+   "text": "[softly] Some were frightened... but historians say the mass panic was mostly a newspaper story."
+  },
+  {
+   "type": "question",
+   "title": "Would you have believed it?",
+   "text": "[gently] Would you have believed it?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

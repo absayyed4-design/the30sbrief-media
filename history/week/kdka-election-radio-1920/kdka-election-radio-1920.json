@@ -1,0 +1,50 @@
+{
+ "slug": "kdka-election-radio-1920",
+ "date": "November 2",
+ "year": 1920,
+ "headline": "Radio brings America the election",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/kdka-election-radio-1920.mp3",
+ "mood": "nostalgic",
+ "post_facts": [
+  "KDKA aired the Harding vs Cox returns",
+  "Results came in by phone, live on air",
+  "About 500 stations by 1922"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen twenty... a Pittsburgh radio station changed how America got its news.",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/harding.jpg"
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/mic.jpg",
+   "label": "KDKA microphone, 1920",
+   "caption": "Later shown at the Smithsonian",
+   "text": "[thoughtfully] Westinghouse station K-D-K-A read the presidential election returns live, as they came in by telephone."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/harding.jpg",
+   "label": "Warren G. Harding",
+   "caption": "Photo by Harris & Ewing",
+   "text": "[calmly] Listeners heard Warren Harding beat James Cox in a landslide."
+  },
+  {
+   "type": "stat",
+   "value": 500,
+   "suffix": "",
+   "label": "radio stations on the air by 1922",
+   "text": "[thoughtfully] By nineteen twenty-two... about five hundred stations were on the air."
+  },
+  {
+   "type": "question",
+   "title": "Do you still listen to the radio?",
+   "text": "[gently] Do you still listen to the radio?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

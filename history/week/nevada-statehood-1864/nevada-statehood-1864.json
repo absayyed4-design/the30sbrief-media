@@ -1,0 +1,18 @@
+{
+  "slug": "nevada-statehood-1864",
+  "date": "October 31",
+  "year": 1864,
+  "headline": "Nevada becomes the 36th state",
+  "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/nevada-statehood-1864.mp3",
+  "mood": "proud",
+  "post_facts": ["Admitted during the Civil War", "Its constitution was sent by telegraph", "Still known as the Battle Born State"],
+  "scenes": [
+    {"type": "intro", "text": "[calmly] On this day, in eighteen sixty-four... Nevada joined the Union, in the middle of the Civil War."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/nv_vc.jpg", "label": "Virginia City, Nevada", "caption": "The silver boomtown, about 1867", "title": "Its constitution went by telegraph", "text": "[thoughtfully] To beat the clock, its constitution was sent to Washington by telegraph... the longest telegram yet."},
+    {"type": "stat", "value": 36, "suffix": "th", "label": "state to join the Union", "text": "[calmly] It became the thirty-sixth state."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/nv_lincoln.jpg", "label": "Abraham Lincoln", "caption": "Photographed by Mathew Brady, 1864", "title": "Lincoln wanted Nevada's votes", "text": "[softly] President Lincoln wanted its votes, to win reelection and to end slavery."},
+    {"type": "text", "title": "Still the Battle Born State", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/w/nv_cap.jpg", "text": "[thoughtfully] Born in wartime, Nevada still calls itself... the Battle Born State."},
+    {"type": "question", "title": "Did you know that nickname?", "text": "[gently] Did you know that nickname?"},
+    {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+  ]
+}

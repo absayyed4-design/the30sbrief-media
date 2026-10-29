@@ -1,0 +1,54 @@
+{
+ "slug": "adams-white-house-1800",
+ "date": "November 1",
+ "year": 1800,
+ "headline": "John Adams moves into the White House",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/s/adams-white-house-1800.mp3",
+ "mood": "nostalgic",
+ "post_facts": [
+  "The first president to live there",
+  "The house was still unfinished",
+  "Abigail dried laundry in the East Room"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in eighteen hundred... John Adams became the first president to live in the White House."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/s/a_adams.jpg",
+   "label": "John Adams",
+   "caption": "Portrait by Gilbert Stuart",
+   "text": "[thoughtfully] Back then, it was the unfinished President's House."
+  },
+  {
+   "type": "stat",
+   "value": 8,
+   "suffix": " years",
+   "label": "since the cornerstone was laid in 1792",
+   "text": "[calmly] Work had begun eight years earlier."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/s/a_abigail.jpg",
+   "label": "Abigail Adams",
+   "caption": "Portrait by Gilbert Stuart",
+   "text": "[softly] Abigail later hung laundry in the empty East Room."
+  },
+  {
+   "type": "text",
+   "title": "His blessing lives on",
+   "text": "[thoughtfully] His prayer, that only honest and wise men rule there, is now carved into a mantel."
+  },
+  {
+   "type": "question",
+   "title": "Would you have moved in?",
+   "text": "[gently] Would you have moved in?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}
