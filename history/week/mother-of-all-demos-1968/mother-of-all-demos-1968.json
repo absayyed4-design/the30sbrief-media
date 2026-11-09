@@ -1,0 +1,18 @@
+{
+ "slug": "mother-of-all-demos-1968",
+ "date": "December 9",
+ "year": 1968,
+ "headline": "The demo that showed us the mouse",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/mother-of-all-demos-1968.mp3",
+ "mood": "adventure",
+ "post_facts": ["90-minute live demo in San Francisco", "About 1,000 computer professionals watched", "Mouse, windows, hypertext, video calls"],
+ "scenes": [
+  {"type": "intro", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/e_mouse.jpg", "text": "[calmly] On this day, in nineteen sixty-eight... a quiet engineer showed the world the future of computers."},
+  {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/e_doug.jpg", "label": "Douglas Engelbart", "caption": "Engelbart (left), years later", "text": "[thoughtfully] In San Francisco, Douglas Engelbart sat before about a thousand computer experts."},
+  {"type": "stat", "value": 90, "suffix": " min", "label": "live demo of a new kind of computing", "text": "[calmly] For ninety minutes, he showed them a little wooden box with wheels... the computer mouse."},
+  {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/e_mouse.jpg", "label": "The first mouse", "caption": "Replica, Computer History Museum", "text": "[softly] He also showed windows, linked text, and live video calls with his team, miles away."},
+  {"type": "text", "title": "The future, on one stage", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/e_nls.jpg", "text": "[warmly] Things we now use every day... were first shown together, on one stage."},
+  {"type": "question", "title": "Could you live without a mouse?", "text": "[gently] Could you imagine life without a mouse?"},
+  {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+ ]
+}
