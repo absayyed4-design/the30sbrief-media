@@ -1,0 +1,50 @@
+{
+ "slug": "pong-release-1972",
+ "date": "November 29",
+ "year": 1972,
+ "headline": "Atari releases Pong",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/pong-release-1972.mp3",
+ "mood": "nostalgic",
+ "post_facts": [
+  "Built as a practice project",
+  "The test machine jammed with quarters",
+  "Over 8,000 sold by 1974"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen seventy-two... a little company called Atari released Pong."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/pg_cab.jpg",
+   "label": "Pong arcade cabinet",
+   "caption": "Atari, 1972",
+   "text": "[thoughtfully] It began as a practice project for a new engineer, Allan Alcorn."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/pg_screen.jpg",
+   "label": "Atari Pong",
+   "caption": "A signed Pong cabinet",
+   "title": "Jammed with quarters",
+   "text": "[softly] When the test machine in a California bar stopped working... its coin box was overflowing with quarters."
+  },
+  {
+   "type": "stat",
+   "value": 8000,
+   "suffix": "+",
+   "label": "Pong machines sold by 1974",
+   "text": "[calmly] By nineteen seventy-four, Atari had sold more than eight thousand machines."
+  },
+  {
+   "type": "question",
+   "title": "Did you ever play it?",
+   "text": "[gently] Did you ever play it?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

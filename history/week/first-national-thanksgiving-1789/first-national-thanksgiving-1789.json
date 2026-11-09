@@ -1,0 +1,49 @@
+{
+ "slug": "first-national-thanksgiving-1789",
+ "date": "November 26",
+ "year": 1789,
+ "headline": "The first presidential Thanksgiving",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/first-national-thanksgiving-1789.mp3",
+ "mood": "proud",
+ "post_facts": [
+  "Congress asked Washington for it",
+  "Lincoln's 1863 Thanksgiving fell on the same date",
+  "In 2026, Thanksgiving is November 26 again"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[warmly] On this day, in seventeen eighty-nine... Americans marked their first Thanksgiving under the new Constitution."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/tg_proc.jpg",
+   "label": "National Archives",
+   "caption": "Washington's proclamation, October 1789",
+   "text": "[calmly] At Congress's request, George Washington named this Thursday a day of thanksgiving."
+  },
+  {
+   "type": "stat",
+   "value": 74,
+   "suffix": "",
+   "label": "years later, Lincoln picked the same date",
+   "text": "[thoughtfully] Seventy-four years later, Abraham Lincoln's Thanksgiving fell on this very same date."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/tg_fedhall.jpg",
+   "label": "Wall Street, New York",
+   "caption": "Federal Hall, home of the first Congress, 1789",
+   "text": "[softly] Lincoln made it a yearly national holiday... the one we still celebrate."
+  },
+  {
+   "type": "question",
+   "title": "What are you thankful for?",
+   "text": "[gently] What are you thankful for this year?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "franksgiving-1939",
+ "date": "November 23",
+ "year": 1939,
+ "headline": "The year of two Thanksgivings",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/franksgiving-1939.mp3",
+ "mood": "nostalgic",
+ "post_facts": [
+  "FDR moved Thanksgiving up one week",
+  "Many states kept November 30",
+  "Critics called it Franksgiving"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen thirty-nine... America celebrated Thanksgiving a week early. Well... some of America."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/fdr_congress.jpg",
+   "label": "Franklin D. Roosevelt",
+   "caption": "Associated Press photo, 1939",
+   "title": "A longer Christmas shopping season",
+   "text": "[thoughtfully] President Franklin Roosevelt moved the holiday up one week, to give stores a longer Christmas shopping season."
+  },
+  {
+   "type": "stat",
+   "value": 2,
+   "suffix": "",
+   "label": "Thanksgivings in one year",
+   "text": "[calmly] Many states refused, so America had two Thanksgivings... and Texas celebrated both."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/fdr_turkey.jpg",
+   "label": "FDR carves the turkey",
+   "caption": "Photo: National Archives, FDR Library",
+   "title": "Critics called it Franksgiving",
+   "text": "[softly] Critics called it... Franksgiving."
+  },
+  {
+   "type": "text",
+   "title": "Fixed by law in 1941",
+   "text": "[thoughtfully] In nineteen forty-one, Congress settled it for good... the fourth Thursday of November."
+  },
+  {
+   "type": "question",
+   "title": "Which Thursday would you pick?",
+   "text": "[gently] Which Thursday would you pick?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

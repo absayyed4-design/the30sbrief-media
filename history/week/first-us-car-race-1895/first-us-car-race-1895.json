@@ -1,0 +1,49 @@
+{
+ "slug": "first-us-car-race-1895",
+ "date": "November 28",
+ "year": 1895,
+ "headline": "America's first car race, in the snow",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/first-us-car-race-1895.mp3",
+ "mood": "adventure",
+ "post_facts": [
+  "Six cars started in Chicago",
+  "Only two finished the 54 miles",
+  "Frank Duryea won $2,000"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in eighteen ninety-five... America held its first car race, in the snow."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/dr_wagon.jpg",
+   "label": "A Duryea motor wagon",
+   "caption": "Scientific American, 1890s",
+   "text": "[thoughtfully] Only six cars reached the start in Chicago, for a fifty-four-mile round trip."
+  },
+  {
+   "type": "stat",
+   "value": 2,
+   "suffix": "",
+   "label": "cars made it to the finish",
+   "text": "[calmly] Just two of them finished."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/dr_museum.jpg",
+   "label": "A Duryea car today",
+   "caption": "Peoria Riverfront Museum, Illinois",
+   "text": "[softly] Frank Duryea won, after about ten hours on snowy roads... and took home two thousand dollars."
+  },
+  {
+   "type": "question",
+   "title": "Would you have raced?",
+   "text": "[gently] Would you have raced in that weather?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

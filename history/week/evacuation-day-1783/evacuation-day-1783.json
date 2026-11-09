@@ -1,0 +1,55 @@
+{
+ "slug": "evacuation-day-1783",
+ "date": "November 25",
+ "year": 1783,
+ "headline": "The British leave New York for good",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/evacuation-day-1783.mp3",
+ "mood": "proud",
+ "post_facts": [
+  "The last British troops sailed away",
+  "Washington rode in to cheering crowds",
+  "New York celebrated it for over a century"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in seventeen eighty-three... the last British soldiers sailed out of New York City."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/ev_triumph.jpg",
+   "label": "Evacuation Day, 1783",
+   "caption": "Lithograph by E.P. and L. Restein",
+   "text": "[thoughtfully] It was their last stronghold in the new nation."
+  },
+  {
+   "type": "stat",
+   "value": 7,
+   "suffix": "",
+   "label": "years under British control",
+   "text": "[calmly] They had held it for seven years."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/ev_entry.jpg",
+   "label": "Washington enters New York",
+   "caption": "Print by Alphonse Bigot, 1800s",
+   "text": "[warmly] Then George Washington rode in, as crowds cheered."
+  },
+  {
+   "type": "text",
+   "title": "A flag on a greased pole",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/ev_flag.jpg",
+   "text": "[softly] Legend says a veteran climbed a greased flagpole... to raise the Stars and Stripes."
+  },
+  {
+   "type": "question",
+   "title": "Ever heard of Evacuation Day?",
+   "text": "[gently] Had you ever heard of Evacuation Day?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

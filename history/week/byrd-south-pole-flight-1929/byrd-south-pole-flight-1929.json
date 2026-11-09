@@ -1,0 +1,53 @@
+{
+ "slug": "byrd-south-pole-flight-1929",
+ "date": "November 29",
+ "year": 1929,
+ "headline": "First flight over the South Pole",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/byrd-south-pole-flight-1929.mp3",
+ "mood": "adventure",
+ "post_facts": [
+  "Four men in a Ford Trimotor",
+  "They dumped food to climb higher",
+  "Almost 19 hours, there and back"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen twenty-nine... Richard Byrd's crew flew over the South Pole... the first ever."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/by_byrd.jpg",
+   "label": "Richard E. Byrd",
+   "caption": "In his flight jacket, 1920s",
+   "text": "[thoughtfully] Four men flew from their base, Little America, in a Ford Trimotor."
+  },
+  {
+   "type": "stat",
+   "value": 19,
+   "suffix": "",
+   "label": "hours there and back, almost",
+   "text": "[calmly] The round trip took almost nineteen hours."
+  },
+  {
+   "type": "text",
+   "title": "Too heavy to climb",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/by_map.jpg",
+   "text": "[softly] To climb high enough, they threw bags of food overboard."
+  },
+  {
+   "type": "text",
+   "title": "Made a rear admiral",
+   "text": "[warmly] Back home, Byrd was made a rear admiral."
+  },
+  {
+   "type": "question",
+   "title": "Would you have gone?",
+   "text": "[gently] Would you have taken that flight?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

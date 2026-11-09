@@ -1,0 +1,49 @@
+{
+ "slug": "casablanca-premiere-1942",
+ "date": "November 26",
+ "year": 1942,
+ "headline": "Casablanca premieres in New York",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/casablanca-premiere-1942.mp3",
+ "mood": "nostalgic",
+ "post_facts": [
+  "Opened at the Hollywood Theater",
+  "Rushed out during the North Africa campaign",
+  "Won 3 Oscars, including Best Picture"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen forty-two... Casablanca premiered in New York City."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/cb_still.jpg",
+   "label": "Bogart and Bergman",
+   "caption": "Casablanca, Warner Bros., 1942",
+   "text": "[thoughtfully] Warner Brothers rushed it out, just weeks after Allied troops landed in North Africa."
+  },
+  {
+   "type": "stat",
+   "value": 3,
+   "suffix": "",
+   "label": "Oscars, including Best Picture",
+   "text": "[calmly] It went on to win three Oscars, including Best Picture."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/cb_cast.jpg",
+   "label": "The cast",
+   "caption": "From the 1942 trailer",
+   "text": "[softly] Humphrey Bogart and Ingrid Bergman played old lovers... torn apart by the war."
+  },
+  {
+   "type": "question",
+   "title": "Have you seen it?",
+   "text": "[gently] Have you ever seen it?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

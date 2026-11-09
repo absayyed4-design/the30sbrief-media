@@ -1,0 +1,55 @@
+{
+ "slug": "first-macys-parade-1924",
+ "date": "November 27",
+ "year": 1924,
+ "headline": "Macy's holds its very first parade",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/first-macys-parade-1924.mp3",
+ "mood": "nostalgic",
+ "post_facts": [
+  "A six-mile route from Harlem",
+  "Real zoo animals, no balloons",
+  "Over 250,000 people watched"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[warmly] On this day, in nineteen twenty-four... Macy's held its first parade in New York."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/mc_1908.jpg",
+   "label": "Macy's, Herald Square",
+   "caption": "The store's entrance, 1908",
+   "text": "[thoughtfully] Store workers marched six miles, to Herald Square."
+  },
+  {
+   "type": "stat",
+   "value": 250000,
+   "suffix": "+",
+   "label": "people lined the route",
+   "text": "[calmly] More than two hundred fifty thousand people came to watch."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/mc_window.jpg",
+   "label": "Macy's holiday window",
+   "caption": "Children at a Christmas display",
+   "text": "[gently] No giant balloons yet... just real elephants, camels and bears from the Central Park Zoo."
+  },
+  {
+   "type": "text",
+   "title": "Balloons arrived in 1927",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/mc_santa.jpg",
+   "text": "[warmly] Balloons took over in nineteen twenty-seven."
+  },
+  {
+   "type": "question",
+   "title": "Do you still watch it?",
+   "text": "[gently] Do you still watch it every year?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "grand-ole-opry-1925",
+ "date": "November 28",
+ "year": 1925,
+ "headline": "The Grand Ole Opry's first broadcast",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/grand-ole-opry-1925.mp3",
+ "mood": "nostalgic",
+ "post_facts": [
+  "Began as the WSM Barn Dance",
+  "A 77-year-old fiddler opened it",
+  "Still on the air a century later"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[warmly] On this day, in nineteen twenty-five... a little radio show began in Nashville."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/op_ryman.jpg",
+   "label": "Ryman Auditorium",
+   "caption": "The Opry's home until 1974",
+   "text": "[thoughtfully] Announcer George D. Hay called it the WSM Barn Dance."
+  },
+  {
+   "type": "stat",
+   "value": 77,
+   "suffix": "",
+   "label": "year-old fiddler played first",
+   "text": "[calmly] The first star was Uncle Jimmy Thompson, a seventy-seven-year-old fiddler."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/op_album.jpg",
+   "label": "WSM, Nashville",
+   "caption": "Opry souvenir album, about 1957",
+   "text": "[softly] In nineteen twenty-seven, Hay gave it a new name... the Grand Ole Opry."
+  },
+  {
+   "type": "text",
+   "title": "Still on the air",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/op_ad.jpg",
+   "text": "[warmly] A century later, it is still on the air."
+  },
+  {
+   "type": "question",
+   "title": "Ever been to the Opry?",
+   "text": "[gently] Have you ever been to the Opry?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "slug": "jfk-funeral-1963",
+ "date": "November 25",
+ "year": 1963,
+ "headline": "America says goodbye to JFK",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/jfk-funeral-1963.mp3",
+ "mood": "emotional",
+ "post_facts": [
+  "Leaders from 92 nations came",
+  "John Jr. turned 3 that day",
+  "An eternal flame marks his grave"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[softly] On this day, in nineteen sixty-three... America said goodbye to President John F. Kennedy."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/jfk_proc.jpg",
+   "label": "Washington, D.C.",
+   "caption": "The procession leaves the White House",
+   "text": "[solemnly] A horse-drawn caisson carried his casket to Arlington."
+  },
+  {
+   "type": "stat",
+   "value": 92,
+   "suffix": "",
+   "label": "nations sent leaders to mourn",
+   "text": "[gravely] Leaders from ninety-two nations came to mourn."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/jfk_jackie.jpg",
+   "label": "St. Matthew's Cathedral",
+   "caption": "Jacqueline Kennedy after the Mass",
+   "text": "[softly] Outside the cathedral, his son John, who turned three that day... saluted his father's casket."
+  },
+  {
+   "type": "text",
+   "title": "A flame that still burns",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.yea68i1gqZ/jfk_flame.jpg",
+   "text": "[gently] At Arlington, Jacqueline Kennedy lit an eternal flame... it still burns today."
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

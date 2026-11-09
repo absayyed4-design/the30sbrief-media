@@ -1,0 +1,58 @@
+{
+ "slug": "db-cooper-hijacking-1971",
+ "date": "November 24",
+ "year": 1971,
+ "headline": "D. B. Cooper jumps into history",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/db-cooper-hijacking-1971.mp3",
+ "mood": "mysterious",
+ "post_facts": [
+  "He demanded $200,000 and four parachutes",
+  "He jumped from the rear stairs of a Boeing 727",
+  "He was never identified"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen seventy-one... a hijacker jumped from a jet with the ransom... and vanished."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/db_sketch.jpg",
+   "label": "FBI composite sketch",
+   "caption": "The man known as D. B. Cooper",
+   "title": "A passenger named Dan Cooper",
+   "text": "[thoughtfully] He flew as Dan Cooper, from Portland to Seattle."
+  },
+  {
+   "type": "stat",
+   "value": 200,
+   "prefix": "$",
+   "suffix": "K",
+   "label": "ransom in cash, plus four parachutes",
+   "text": "[calmly] He demanded two hundred thousand dollars and four parachutes."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/db_727.jpg",
+   "label": "A Northwest Orient Boeing 727",
+   "caption": "The same type of jet, 1970",
+   "title": "A jump into the night",
+   "text": "[softly] He freed the passengers in Seattle, then jumped from the rear stairs into the night."
+  },
+  {
+   "type": "text",
+   "title": "Never identified",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/db_ticket.jpg",
+   "text": "[thoughtfully] Only a little of the money was ever found. He was never identified."
+  },
+  {
+   "type": "question",
+   "title": "What happened to D. B. Cooper?",
+   "text": "[gently] What do you think happened to him?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}
