@@ -1,0 +1,56 @@
+{
+ "slug": "blackbeard-last-battle-1718",
+ "date": "November 22",
+ "year": 1718,
+ "headline": "Blackbeard's last battle",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/blackbeard-last-battle-1718.mp3",
+ "mood": "adventure",
+ "post_facts": [
+  "He tucked burning fuses under his hat",
+  "Virginia sent two sloops after him",
+  "He fell near Ocracoke Island, North Carolina"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in seventeen eighteen... the pirate Blackbeard met his end."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/bb_cole.jpg",
+   "label": "Blackbeard",
+   "caption": "Engraving by Benjamin Cole, 1724",
+   "title": "Burning fuses under his hat",
+   "text": "[thoughtfully] He tucked burning fuses under his hat, to frighten his enemies."
+  },
+  {
+   "type": "stat",
+   "value": 2,
+   "suffix": "",
+   "label": "sloops sent from Virginia to hunt him",
+   "text": "[calmly] Virginia's governor sent two sloops after him, led by Lieutenant Robert Maynard."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/bb_ferris.jpg",
+   "label": "Ocracoke, North Carolina",
+   "caption": "Painting by J. L. G. Ferris, 1920",
+   "title": "A fight hand to hand",
+   "text": "[gravely] Near Ocracoke Island, the crews fought hand to hand... and Blackbeard fell."
+  },
+  {
+   "type": "text",
+   "title": "His ship was found centuries later",
+   "text": "[softly] Centuries later, divers found his flagship off North Carolina."
+  },
+  {
+   "type": "question",
+   "title": "Would you have joined his crew?",
+   "text": "[gently] Would you have joined his crew?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

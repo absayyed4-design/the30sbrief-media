@@ -1,0 +1,57 @@
+{
+ "slug": "computer-mouse-patent-1970",
+ "date": "November 17",
+ "year": 1970,
+ "headline": "The computer mouse gets its patent",
+ "mood": "adventure",
+ "post_facts": [
+  "A wooden shell with two wheels",
+  "Licensed to Apple for about $40,000",
+  "Engelbart got no royalties"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/mouse.jpg",
+   "text": "[calmly] On this day, in nineteen seventy... a wooden box with two wheels got a patent."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/engel.jpg",
+   "label": "Douglas Engelbart",
+   "caption": "Inventor at SRI, 1968",
+   "text": "[thoughtfully] Douglas Engelbart called it an X-Y position indicator."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/mouse.jpg",
+   "label": "The first mouse",
+   "caption": "Prototype, Computer History Museum",
+   "text": "[softly] His team just called it the mouse... because of its tail."
+  },
+  {
+   "type": "stat",
+   "value": 40000,
+   "prefix": "$",
+   "suffix": "",
+   "label": "about what Apple paid to license it",
+   "text": "[calmly] His institute licensed it to Apple for about forty thousand dollars. Engelbart got no royalties."
+  },
+  {
+   "type": "text",
+   "title": "Every click started here",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/mouse2.jpg",
+   "text": "[thoughtfully] Every click goes back to that box."
+  },
+  {
+   "type": "question",
+   "title": "Do you still use a mouse?",
+   "text": "[gently] Do you still use a mouse?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/computer-mouse-patent-1970.mp3"
+}

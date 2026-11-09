@@ -1,0 +1,58 @@
+{
+ "slug": "ann-hodges-meteorite-1954",
+ "date": "November 30",
+ "year": 1954,
+ "mood": "mysterious",
+ "headline": "A meteorite hits a woman in Alabama",
+ "post_facts": [
+  "It crashed through her roof",
+  "About 8.5 pounds of space rock",
+  "She survived with a bruise"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen fifty-four... a rock from space fell on a sleeping woman."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/h_hole.jpg",
+   "label": "Sylacauga, Alabama",
+   "caption": "Ann Hodges and the hole in her roof, 1954",
+   "title": "Through the roof",
+   "text": "[thoughtfully] It smashed through her roof in Sylacauga, Alabama, and bounced off her radio."
+  },
+  {
+   "type": "stat",
+   "value": 8.5,
+   "decimals": 1,
+   "suffix": " lb",
+   "label": "the meteorite that hit her",
+   "text": "[calmly] The meteorite weighed about eight and a half pounds."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/h_hold.jpg",
+   "label": "Ann Hodges",
+   "caption": "Holding the meteorite, 1954",
+   "title": "Bruised, but alive",
+   "text": "[softly] Ann Hodges was left badly bruised... but alive."
+  },
+  {
+   "type": "text",
+   "title": "The first person known hurt by a meteorite",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/h_rock.jpg",
+   "text": "[thoughtfully] She became the first person known to be hurt by a meteorite."
+  },
+  {
+   "type": "question",
+   "title": "Would you keep it?",
+   "text": "[gently] Would you keep it?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/ann-hodges-meteorite-1954.mp3"
+}

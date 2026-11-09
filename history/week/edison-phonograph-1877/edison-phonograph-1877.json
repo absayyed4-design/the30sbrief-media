@@ -1,0 +1,57 @@
+{
+ "slug": "edison-phonograph-1877",
+ "date": "November 21",
+ "year": 1877,
+ "headline": "Edison announces the phonograph",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/edison-phonograph-1877.mp3",
+ "mood": "adventure",
+ "post_facts": [
+  "Sound was cut into tinfoil on a cylinder",
+  "First words: Mary Had a Little Lamb",
+  "Patented in February 1878"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in eighteen seventy-seven... Thomas Edison announced a machine that could talk back."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/ed_tinfoil.jpg",
+   "label": "Edison's tinfoil phonograph",
+   "caption": "National Museum of American History",
+   "title": "Sound cut into tinfoil",
+   "text": "[thoughtfully] He called it the phonograph. A needle cut sound into tinfoil, on a turning cylinder."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/ed_brady.jpg",
+   "label": "Thomas Edison, 1878",
+   "caption": "With his phonograph in Washington",
+   "title": "First words: Mary Had a Little Lamb",
+   "text": "[softly] His first test was a nursery rhyme... Mary had a little lamb."
+  },
+  {
+   "type": "stat",
+   "value": 3,
+   "suffix": "",
+   "label": "months later, his patent was granted",
+   "text": "[calmly] He received the patent in February, eighteen seventy-eight."
+  },
+  {
+   "type": "text",
+   "title": "Sound could now be saved",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/ed_lab.jpg",
+   "text": "[thoughtfully] For the first time... a voice could be saved, and played again."
+  },
+  {
+   "type": "question",
+   "title": "Could you live without recorded music?",
+   "text": "[gently] Could you live without recorded music?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

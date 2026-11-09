@@ -1,0 +1,56 @@
+{
+ "slug": "blue-marble-photo-1972",
+ "date": "December 7",
+ "year": 1972,
+ "headline": "Apollo 17 takes the Blue Marble",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/blue-marble-photo-1972.mp3",
+ "mood": "proud",
+ "post_facts": [
+  "Taken about 18,000 miles from Earth",
+  "Apollo 17 crew: Cernan, Evans, Schmitt",
+  "Last crewed mission to the Moon"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen seventy-two... astronauts took one of the most famous photos ever made.",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/b_earth.jpg"
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/b_launch.jpg",
+   "label": "Kennedy Space Center",
+   "caption": "Apollo 17 lifts off at night",
+   "text": "[thoughtfully] Apollo seventeen had launched just hours earlier, bound for the Moon."
+  },
+  {
+   "type": "stat",
+   "value": 18000,
+   "suffix": " mi",
+   "label": "from Earth when the photo was taken",
+   "text": "[softly] About eighteen thousand miles out, the crew looked back... and saw the whole Earth, fully lit by the Sun."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/b_earth.jpg",
+   "label": "The Blue Marble",
+   "caption": "Earth seen from Apollo 17",
+   "text": "[warmly] The photo became known... as the Blue Marble."
+  },
+  {
+   "type": "text",
+   "title": "The last trip to the Moon",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/b_crew.jpg",
+   "text": "[thoughtfully] It was the last time humans traveled to the Moon."
+  },
+  {
+   "type": "question",
+   "title": "Have you seen this photo before?",
+   "text": "[gently] Have you seen this photo before?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

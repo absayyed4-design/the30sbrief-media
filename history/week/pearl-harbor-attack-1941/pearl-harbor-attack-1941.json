@@ -1,0 +1,18 @@
+{
+ "slug": "pearl-harbor-attack-1941",
+ "date": "December 7",
+ "year": 1941,
+ "headline": "Remembering Pearl Harbor",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/pearl-harbor-attack-1941.mp3",
+ "mood": "tragic",
+ "post_facts": ["More than 2,400 Americans killed", "1,177 lost on the USS Arizona", "The U.S. declared war the next day"],
+ "scenes": [
+  {"type": "intro", "text": "[solemnly] On this day, in nineteen forty-one... Japanese planes attacked Pearl Harbor, Hawaii."},
+  {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/ph_row.jpg", "label": "Battleship Row", "caption": "Pearl Harbor, December 7, 1941", "text": "[gravely] Just before eight on a Sunday morning, hundreds of aircraft struck the Navy fleet."},
+  {"type": "stat", "value": 2400, "suffix": "+", "label": "Americans killed in the attack", "text": "[solemnly] More than two thousand four hundred Americans were killed."},
+  {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/ph_az.jpg", "label": "USS Arizona", "caption": "The battleship after the attack", "text": "[softly] On the USS Arizona alone, one thousand one hundred seventy-seven crew members died."},
+  {"type": "text", "title": "America enters the war", "text": "[thoughtfully] The next day, the United States declared war on Japan."},
+  {"type": "text", "title": "We remember", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/ph_mem.jpg", "text": "[gently] Today, a white memorial rests above the Arizona."},
+  {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+ ]
+}

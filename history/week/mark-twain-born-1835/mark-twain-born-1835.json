@@ -1,0 +1,57 @@
+{
+ "slug": "mark-twain-born-1835",
+ "date": "November 30",
+ "year": 1835,
+ "mood": "nostalgic",
+ "headline": "Mark Twain is born in Missouri",
+ "post_facts": [
+  "Born Samuel Clemens in Florida, Missouri",
+  "Pen name means 12 feet of water",
+  "Born and died with Halley's Comet"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[warmly] On this day, in eighteen thirty-five... Mark Twain was born in Florida, Missouri."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/t_young.jpg",
+   "label": "Samuel Clemens",
+   "caption": "Young Sam Clemens, about 1850",
+   "title": "A boy of the Mississippi",
+   "text": "[calmly] He grew up beside the Mississippi River."
+  },
+  {
+   "type": "stat",
+   "value": 12,
+   "suffix": " feet",
+   "label": "of river water: the meaning of \"mark twain\"",
+   "text": "[thoughtfully] His pen name was river slang for water twelve feet deep."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/t_bradley.jpg",
+   "label": "Mark Twain, 1907",
+   "caption": "Photo by A.F. Bradley",
+   "title": "Tom Sawyer and Huck Finn",
+   "text": "[warmly] He gave us Tom Sawyer and Huckleberry Finn."
+  },
+  {
+   "type": "text",
+   "title": "In with the comet, out with the comet",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/t_comet.jpg",
+   "text": "[softly] He was born with Halley's Comet, and said he would leave with it... In nineteen ten, he did."
+  },
+  {
+   "type": "question",
+   "title": "Which Twain book was your first?",
+   "text": "[gently] Which Twain book was your first?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/mark-twain-born-1835.mp3"
+}

@@ -1,0 +1,17 @@
+{
+ "slug": "flight-19-vanishes-1945",
+ "date": "December 5",
+ "year": 1945,
+ "headline": "Flight 19 vanishes off Florida",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/flight-19-vanishes-1945.mp3",
+ "mood": "mysterious",
+ "post_facts": ["Five Navy Avenger bombers lost", "A search plane was lost too", "27 men, no wreckage confirmed"],
+ "scenes": [
+  {"type": "intro", "text": "[solemnly] On this day, in nineteen forty-five... five Navy planes vanished off Florida."},
+  {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/f_tbf.jpg", "label": "Fort Lauderdale, Florida", "caption": "Navy Avenger torpedo bombers in formation", "text": "[calmly] Flight nineteen left Fort Lauderdale on a training flight, with fourteen airmen aboard."},
+  {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/f_taylor.jpg", "label": "Lt. Charles C. Taylor", "caption": "Flight leader of Flight 19", "text": "[gravely] Its leader's compasses failed... and the planes were lost at sea."},
+  {"type": "stat", "value": 27, "suffix": "", "label": "men lost, including a search plane crew of 13", "text": "[softly] A search plane with thirteen men went looking for them. It was lost too."},
+  {"type": "text", "title": "No wreckage ever found", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/f_pbm.jpg", "text": "[thoughtfully] No wreckage was ever found. It helped create the Bermuda Triangle legend."},
+  {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "articles-of-confederation-1777",
+ "date": "November 15",
+ "year": 1777,
+ "headline": "America's first rulebook is adopted",
+ "mood": "proud",
+ "post_facts": [
+  "Adopted in York, Pennsylvania",
+  "All 13 states had to approve",
+  "Replaced by the Constitution in 1789"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/aoc1.jpg",
+   "text": "[calmly] On this day, in seventeen seventy-seven... America adopted its first rulebook."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/york.jpg",
+   "label": "York, Pennsylvania",
+   "caption": "Temporary home of Congress, 1777",
+   "text": "[thoughtfully] With the British in Philadelphia, Congress met in York, Pennsylvania."
+  },
+  {
+   "type": "stat",
+   "value": 13,
+   "suffix": "",
+   "label": "states all had to approve it",
+   "text": "[calmly] There it passed the Articles of Confederation. All thirteen states had to agree... which took over three years."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/aoc1.jpg",
+   "label": "Articles of Confederation",
+   "caption": "Page one of the original",
+   "text": "[softly] But Congress could not even collect taxes."
+  },
+  {
+   "type": "text",
+   "title": "The Constitution took its place",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/york.jpg",
+   "text": "[thoughtfully] In seventeen eighty-nine, the Constitution replaced it."
+  },
+  {
+   "type": "question",
+   "title": "Did you learn this in school?",
+   "text": "[gently] Did you learn this in school?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/articles-of-confederation-1777.mp3"
+}

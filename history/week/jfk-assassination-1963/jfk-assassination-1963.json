@@ -1,0 +1,18 @@
+{
+  "slug": "jfk-assassination-1963",
+  "date": "November 22",
+  "year": 1963,
+  "headline": "America loses President Kennedy",
+  "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/jfk-assassination-1963.mp3",
+  "mood": "tragic",
+  "post_facts": ["Shot in Dealey Plaza, Dallas, about 12:30 p.m.", "The 35th president was 46 years old", "Lyndon Johnson took the oath aboard Air Force One"],
+  "scenes": [
+    {"type": "intro", "text": "[solemnly] On this day, in nineteen sixty-three... America lost its president."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/jfk_arrive.jpg", "label": "Dallas Love Field", "caption": "The Kennedys arrive that morning", "title": "A visit to Dallas", "text": "[softly] John and Jacqueline Kennedy rode through Dallas, past cheering crowds."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/jfk_limo.jpg", "label": "Downtown Dallas", "caption": "The presidential motorcade", "title": "Shots in Dealey Plaza", "text": "[gravely] At about twelve thirty, shots were fired in Dealey Plaza."},
+    {"type": "stat", "value": 46, "suffix": "", "label": "years old, the 35th president", "text": "[solemnly] The forty-six-year-old president died within the hour."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/jfk_oath.jpg", "label": "Aboard Air Force One", "caption": "Photo by Cecil Stoughton", "title": "A new president sworn in", "text": "[softly] That afternoon, aboard Air Force One, Lyndon Johnson took the oath, with Jacqueline Kennedy at his side."},
+    {"type": "text", "title": "A nation in mourning", "text": "[solemnly] A grieving nation stopped... and mourned together."},
+    {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+  ]
+}

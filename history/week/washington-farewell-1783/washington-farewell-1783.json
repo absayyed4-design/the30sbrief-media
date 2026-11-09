@@ -1,0 +1,56 @@
+{
+ "slug": "washington-farewell-1783",
+ "date": "December 4",
+ "year": 1783,
+ "mood": "emotional",
+ "headline": "Washington says goodbye to his officers",
+ "post_facts": [
+  "A tearful farewell at Fraunces Tavern",
+  "He gave up command 19 days later",
+  "Then he went home to Mount Vernon"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[softly] On this day, in seventeen eighty-three... George Washington said goodbye to his officers."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/w_farewell.jpg",
+   "label": "New York City",
+   "caption": "Painting by Alonzo Chappel, 1866",
+   "title": "A hand for every officer",
+   "text": "[thoughtfully] At a New York tavern, he asked each officer to take his hand."
+  },
+  {
+   "type": "stat",
+   "value": 19,
+   "suffix": " days",
+   "label": "later, he gave up command of the army",
+   "text": "[solemnly] Nineteen days later, he gave up command of the army."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/w_tavern.jpg",
+   "label": "Fraunces Tavern",
+   "caption": "Lower Manhattan today",
+   "title": "Now a museum",
+   "text": "[calmly] That tavern, Fraunces Tavern, is a museum today."
+  },
+  {
+   "type": "text",
+   "title": "He chose to go home",
+   "text": "[thoughtfully] He could have kept power... he went home instead."
+  },
+  {
+   "type": "question",
+   "title": "Could you walk away from that much power?",
+   "text": "[gently] Could you walk away from that much power?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/washington-farewell-1783.mp3"
+}

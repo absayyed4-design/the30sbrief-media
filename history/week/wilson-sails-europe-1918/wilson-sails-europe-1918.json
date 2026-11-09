@@ -1,0 +1,57 @@
+{
+ "slug": "wilson-sails-europe-1918",
+ "date": "December 4",
+ "year": 1918,
+ "mood": "adventure",
+ "headline": "Wilson sails to Europe, a presidential first",
+ "post_facts": [
+  "First sitting president to visit Europe",
+  "Nine days at sea to France",
+  "He pushed for a League of Nations"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen eighteen... President Woodrow Wilson sailed for France."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/v_bridge.jpg",
+   "label": "Woodrow Wilson",
+   "caption": "On the bridge of the George Washington",
+   "title": "A first for a president",
+   "text": "[thoughtfully] No sitting president had ever traveled to Europe before."
+  },
+  {
+   "type": "stat",
+   "value": 9,
+   "suffix": " days",
+   "label": "at sea aboard the George Washington",
+   "text": "[calmly] His ship, the George Washington, spent nine days at sea."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/v_fleet.jpg",
+   "label": "U.S. Atlantic Fleet",
+   "caption": "Navy ships, December 1918",
+   "title": "Shaping the peace",
+   "text": "[warmly] He went to help shape the peace after World War One."
+  },
+  {
+   "type": "text",
+   "title": "The Senate said no",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/v_portrait.jpg",
+   "text": "[thoughtfully] He pushed for a League of Nations... but the Senate rejected the treaty."
+  },
+  {
+   "type": "question",
+   "title": "Would you have made that trip?",
+   "text": "[gently] Would you have made that trip?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/wilson-sails-europe-1918.mp3"
+}

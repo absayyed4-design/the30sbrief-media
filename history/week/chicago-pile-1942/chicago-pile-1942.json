@@ -1,0 +1,57 @@
+{
+ "slug": "chicago-pile-1942",
+ "date": "December 2",
+ "year": 1942,
+ "mood": "adventure",
+ "headline": "The atomic age begins in Chicago",
+ "post_facts": [
+  "First nuclear reactor, on a squash court",
+  "49 people watched, led by Enrico Fermi",
+  "They toasted with Chianti in paper cups"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen forty-two... the atomic age began in Chicago."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/c_pile.jpg",
+   "label": "Chicago Pile-1",
+   "caption": "Drawing of the reactor under Stagg Field",
+   "title": "A reactor on a squash court",
+   "text": "[thoughtfully] Scientists built the first nuclear reactor on a squash court... under a football stadium."
+  },
+  {
+   "type": "stat",
+   "value": 49,
+   "suffix": "",
+   "label": "people watched the test",
+   "text": "[calmly] Forty-nine people watched, led by Enrico Fermi."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/c_fermi.jpg",
+   "label": "Enrico Fermi",
+   "caption": "Leader of the Chicago Pile team",
+   "title": "A toast in paper cups",
+   "text": "[softly] When it worked, they shared a bottle of Chianti from paper cups."
+  },
+  {
+   "type": "text",
+   "title": "Bombs and power plants followed",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/c_model.jpg",
+   "text": "[gravely] It led to the atomic bomb, and to nuclear power."
+  },
+  {
+   "type": "question",
+   "title": "Would you have stood that close?",
+   "text": "[gently] Would you have stood that close?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/chicago-pile-1942.mp3"
+}

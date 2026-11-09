@@ -1,0 +1,57 @@
+{
+ "slug": "rosa-parks-arrest-1955",
+ "date": "December 1",
+ "year": 1955,
+ "mood": "hopeful",
+ "headline": "Rosa Parks refuses to give up her seat",
+ "post_facts": [
+  "Arrested on a Montgomery bus",
+  "The boycott lasted 381 days",
+  "Segregated city buses were struck down"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen fifty-five... Rosa Parks refused to give up her seat."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/p_1955.jpg",
+   "label": "Rosa Parks",
+   "caption": "Montgomery, Alabama",
+   "title": "A seamstress heading home",
+   "text": "[thoughtfully] She was a seamstress heading home in Montgomery, Alabama."
+  },
+  {
+   "type": "stat",
+   "value": 381,
+   "suffix": " days",
+   "label": "the Montgomery bus boycott",
+   "text": "[solemnly] She was arrested, and a bus boycott began that lasted three hundred eighty-one days."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/p_finger.jpg",
+   "label": "February 1956",
+   "caption": "Parks fingerprinted during the boycott",
+   "title": "Martin Luther King Jr. helped lead it",
+   "text": "[calmly] A young pastor, Martin Luther King Junior, helped lead it."
+  },
+  {
+   "type": "text",
+   "title": "Segregated buses struck down",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/p_bus.jpg",
+   "text": "[gently] Then the courts struck down segregated buses in Montgomery."
+  },
+  {
+   "type": "question",
+   "title": "Did you learn this in school?",
+   "text": "[gently] Did you learn this in school?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/rosa-parks-arrest-1955.mp3"
+}

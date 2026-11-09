@@ -1,0 +1,56 @@
+{
+ "slug": "illinois-statehood-1818",
+ "date": "December 3",
+ "year": 1818,
+ "mood": "proud",
+ "headline": "Illinois becomes the 21st state",
+ "post_facts": [
+  "Admitted as the 21st state",
+  "Border moved about 51 miles north",
+  "That put Chicago's future site in Illinois"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in eighteen eighteen... Illinois became the twenty-first state."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/i_map.jpg",
+   "label": "Illinois, 1818",
+   "caption": "Map of the new state",
+   "title": "Almost without Chicago",
+   "text": "[thoughtfully] But it almost joined the Union without Chicago."
+  },
+  {
+   "type": "stat",
+   "value": 51,
+   "suffix": " miles",
+   "label": "the northern border moved north",
+   "text": "[calmly] Delegate Nathaniel Pope got Congress to move its northern border about fifty-one miles."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/i_b.jpg",
+   "label": "Chicago, 1831",
+   "caption": "Fort Dearborn by the lake",
+   "title": "A shore on Lake Michigan",
+   "text": "[softly] That gave Illinois Lake Michigan shoreline... and the future site of Chicago."
+  },
+  {
+   "type": "text",
+   "title": "Springfield became capital in 1837",
+   "text": "[thoughtfully] Nineteen years later, the capital moved to Springfield."
+  },
+  {
+   "type": "question",
+   "title": "Did you know Chicago almost missed Illinois?",
+   "text": "[gently] Did you know Chicago almost wasn't in Illinois?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/wk.Rn80/illinois-statehood-1818.mp3"
+}

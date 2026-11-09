@@ -1,0 +1,18 @@
+{
+ "slug": "thirteenth-amendment-1865",
+ "date": "December 6",
+ "year": 1865,
+ "headline": "The 13th Amendment ends slavery",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/thirteenth-amendment-1865.mp3",
+ "mood": "hopeful",
+ "post_facts": ["Georgia was the 27th state to ratify", "The House passed it January 31, 1865", "Slavery was abolished nationwide"],
+ "scenes": [
+  {"type": "intro", "text": "[solemnly] On this day, in eighteen sixty-five... slavery was abolished across the United States."},
+  {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/t_house.jpg", "label": "U.S. House, Jan. 31, 1865", "caption": "The House passes the amendment", "text": "[thoughtfully] That January, the House had passed the Thirteenth Amendment."},
+  {"type": "stat", "value": 27, "suffix": "th", "label": "state to ratify: Georgia", "text": "[calmly] Then Georgia became the twenty-seventh state to ratify it... the final vote needed."},
+  {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/t_nast.jpg", "label": "Emancipation", "caption": "Engraving by Thomas Nast, 1865", "text": "[warmly] Freedom was now written into the Constitution."},
+  {"type": "text", "title": "Lincoln never saw this day", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/t_lincoln.jpg", "text": "[softly] Abraham Lincoln did not live to see this day."},
+  {"type": "question", "title": "Did you know it took this long?", "text": "[gently] Did you know it took this long to become law?"},
+  {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+ ]
+}

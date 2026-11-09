@@ -1,0 +1,18 @@
+{
+  "slug": "essex-whale-attack-1820",
+  "date": "November 20",
+  "year": 1820,
+  "headline": "A whale sinks the whaleship Essex",
+  "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/essex-whale-attack-1820.mp3",
+  "mood": "tragic",
+  "post_facts": ["A sperm whale rammed the Nantucket ship twice", "Only 8 of 21 crewmen survived", "The story inspired Moby-Dick"],
+  "scenes": [
+    {"type": "intro", "text": "[gravely] On this day, in eighteen twenty... a whale sank an American ship."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/ex_harpoon.jpg", "label": "Whaling in the Pacific", "caption": "Painting by William H. Overend", "title": "Rammed by a sperm whale", "text": "[calmly] The Nantucket whaleship Essex was hunting in the Pacific, when a sperm whale rammed it... twice."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/ex_sketch.jpg", "label": "The Essex, November 20, 1820", "caption": "A sketch of the whale's attack", "title": "Twenty men in three small boats", "text": "[solemnly] Twenty men escaped in three small boats."},
+    {"type": "stat", "value": 8, "suffix": "", "label": "men survived the ordeal", "text": "[gravely] After months adrift at sea, only eight survived."},
+    {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/ex_chase.jpg", "label": "First mate Owen Chase", "caption": "He published the story in 1821", "title": "A survivor told the story", "text": "[thoughtfully] First mate Owen Chase wrote down their story."},
+    {"type": "text", "title": "It inspired Moby-Dick", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/ex_moby.jpg", "text": "[softly] Three decades later, it helped inspire Herman Melville's Moby-Dick."},
+    {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+  ]
+}

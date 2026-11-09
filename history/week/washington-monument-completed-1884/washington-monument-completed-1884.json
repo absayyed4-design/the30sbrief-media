@@ -1,0 +1,55 @@
+{
+ "slug": "washington-monument-completed-1884",
+ "date": "December 6",
+ "year": 1884,
+ "headline": "The Washington Monument is finished",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/washington-monument-completed-1884.mp3",
+ "mood": "proud",
+ "post_facts": [
+  "Construction began July 4, 1848",
+  "Work stopped from 1854 to 1877",
+  "Topped with a 100-ounce aluminum tip"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in eighteen eighty-four... the Washington Monument was finally finished."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/w_shaft.jpg",
+   "label": "Washington, D.C.",
+   "caption": "The unfinished shaft, early 1880s",
+   "text": "[thoughtfully] Work began in eighteen forty-eight... but it sat unfinished for over twenty years."
+  },
+  {
+   "type": "stat",
+   "value": 555,
+   "suffix": " ft",
+   "label": "tall when the capstone was set",
+   "text": "[calmly] Workers set its capstone, five hundred fifty-five feet up."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/w_apex.jpg",
+   "label": "The aluminum tip",
+   "caption": "Photo by Theodor Horydczak, 1934",
+   "text": "[softly] Its tip was made of aluminum, then a rare metal."
+  },
+  {
+   "type": "text",
+   "title": "Tallest structure on Earth",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/w_cap.jpg",
+   "text": "[warmly] It became the tallest structure on Earth, until the Eiffel Tower."
+  },
+  {
+   "type": "question",
+   "title": "Have you seen it in person?",
+   "text": "[gently] Have you ever seen it in person?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

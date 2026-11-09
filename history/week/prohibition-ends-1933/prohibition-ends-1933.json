@@ -1,0 +1,18 @@
+{
+ "slug": "prohibition-ends-1933",
+ "date": "December 5",
+ "year": 1933,
+ "headline": "The day Prohibition ended",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/prohibition-ends-1933.mp3",
+ "mood": "nostalgic",
+ "post_facts": ["Utah was the 36th state to ratify", "The 21st Amendment repealed the 18th", "National Prohibition began in 1920"],
+ "scenes": [
+  {"type": "intro", "text": "[calmly] On this day, in nineteen thirty-three... America's long dry spell came to an end."},
+  {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/p_pour.jpg", "label": "New York City", "caption": "Agents pour liquor into a sewer", "text": "[thoughtfully] For almost fourteen years, Prohibition had banned alcohol sales nationwide."},
+  {"type": "stat", "value": 36, "suffix": "th", "label": "state to ratify: Utah", "text": "[calmly] Then Utah became the thirty-sixth state to approve the Twenty-first Amendment."},
+  {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/p_oppo.jpg", "label": "The push for repeal", "caption": "Opposition to Prohibition, 1930", "text": "[softly] Legal drinks were back."},
+  {"type": "text", "title": "Some states stayed dry", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/p_clock.jpg", "text": "[thoughtfully] Still, some states stayed dry... Mississippi, until nineteen sixty-six."},
+  {"type": "question", "title": "Did you know it lasted that long?", "text": "[gently] Did you know Prohibition lasted that long?"},
+  {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+ ]
+}

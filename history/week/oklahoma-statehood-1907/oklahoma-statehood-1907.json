@@ -1,0 +1,56 @@
+{
+ "slug": "oklahoma-statehood-1907",
+ "date": "November 16",
+ "year": 1907,
+ "headline": "Oklahoma becomes the 46th state",
+ "mood": "proud",
+ "post_facts": [
+  "Two territories joined as one",
+  "A mock wedding in Guthrie",
+  "Charles Haskell, first governor"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/okmap.jpg",
+   "text": "[calmly] On this day, in nineteen-oh-seven... two territories were married. And a new state was born."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/okmap.jpg",
+   "label": "The Twin Territories",
+   "caption": "Rand McNally map, 1892",
+   "text": "[thoughtfully] Theodore Roosevelt's proclamation joined Oklahoma Territory and Indian Territory."
+  },
+  {
+   "type": "stat",
+   "value": 46,
+   "suffix": "th",
+   "label": "state in the Union",
+   "text": "[calmly] Oklahoma became the forty-sixth state."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/guthrie.jpg",
+   "label": "Guthrie, Oklahoma",
+   "caption": "Guthrie in 1893",
+   "text": "[warmly] In Guthrie, crowds watched a mock wedding... a groom for Oklahoma Territory, and a Cherokee bride for Indian Territory."
+  },
+  {
+   "type": "text",
+   "title": "Oklahoma's first governor",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/haskell.jpg",
+   "text": "[thoughtfully] Then Charles Haskell became the first governor."
+  },
+  {
+   "type": "question",
+   "title": "Do you have Oklahoma roots?",
+   "text": "[gently] Do you have Oklahoma roots?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/oklahoma-statehood-1907.mp3"
+}
