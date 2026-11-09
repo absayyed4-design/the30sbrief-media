@@ -1,0 +1,57 @@
+{
+ "slug": "verrazzano-bridge-opens-1964",
+ "date": "November 21",
+ "year": 1964,
+ "headline": "New York's record bridge opens",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/verrazzano-bridge-opens-1964.mp3",
+ "mood": "proud",
+ "post_facts": [
+  "Links Brooklyn and Staten Island",
+  "4,260 ft main span, the world's longest in 1964",
+  "Its towers lean apart for Earth's curve"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen sixty-four... New York opened a bridge built around the curve of the Earth."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/vz_1964.jpg",
+   "label": "New York City",
+   "caption": "Photographed in 1964",
+   "title": "Brooklyn to Staten Island",
+   "text": "[thoughtfully] The Verrazzano-Narrows Bridge linked Brooklyn and Staten Island."
+  },
+  {
+   "type": "stat",
+   "value": 4260,
+   "suffix": " ft",
+   "label": "main span, the longest in the world",
+   "text": "[calmly] Its main span ran four thousand two hundred sixty feet... the longest in the world."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/vz_build.jpg",
+   "label": "Between the towers",
+   "caption": "Photo: MTA Bridges and Tunnels",
+   "title": "Towers that follow the Earth",
+   "text": "[softly] Its towers are more than an inch and a half farther apart at the top, because the Earth curves."
+  },
+  {
+   "type": "text",
+   "title": "Designed by Othmar Ammann",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/vz_stamp.jpg",
+   "text": "[thoughtfully] Engineer Othmar Ammann designed it."
+  },
+  {
+   "type": "question",
+   "title": "Have you ever crossed it?",
+   "text": "[gently] Have you ever crossed it?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

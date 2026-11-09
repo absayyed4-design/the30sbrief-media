@@ -1,0 +1,56 @@
+{
+ "slug": "marine-corps-founded-1775",
+ "date": "November 10",
+ "year": 1775,
+ "headline": "The U.S. Marine Corps is born",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/marine-corps-founded-1775.mp3",
+ "mood": "proud",
+ "post_facts": [
+  "Congress called for two battalions",
+  "First recruits at Tun Tavern, says tradition",
+  "Celebrated every November 10"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in seventeen seventy-five... the United States Marine Corps was born."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/m_tun.jpg",
+   "label": "Philadelphia",
+   "caption": "Sketch of Tun Tavern, Revolutionary era",
+   "text": "[thoughtfully] In Philadelphia, Congress called for two battalions of Marines."
+  },
+  {
+   "type": "stat",
+   "value": 2,
+   "suffix": "",
+   "label": "battalions of Marines called for by Congress",
+   "text": "[calmly] Tradition says the first recruits signed up at Tun Tavern."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/m_nich.jpg",
+   "label": "Samuel Nicholas",
+   "caption": "First leader of the Continental Marines",
+   "title": "Their first leader",
+   "text": "[thoughtfully] Their first leader was Samuel Nicholas."
+  },
+  {
+   "type": "text",
+   "title": "A birthday Marines still keep",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/m_cake.jpg",
+   "text": "[softly] Marines everywhere still celebrate this date as their birthday."
+  },
+  {
+   "type": "question",
+   "title": "Do you know a Marine?",
+   "text": "[gently] Do you know a Marine? Wish them a happy birthday."
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

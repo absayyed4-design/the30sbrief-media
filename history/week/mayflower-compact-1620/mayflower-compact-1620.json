@@ -1,0 +1,56 @@
+{
+ "slug": "mayflower-compact-1620",
+ "date": "November 11",
+ "year": 1620,
+ "headline": "The Mayflower Compact is signed",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/mayflower-compact-1620.mp3",
+ "mood": "hopeful",
+ "post_facts": [
+  "Signed aboard the Mayflower off Cape Cod",
+  "41 men put their names to it",
+  "Plymouth Colony's first governing document"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in sixteen twenty... off Cape Cod, forty-one men signed a promise."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/may_ferris.jpg",
+   "label": "Off Cape Cod",
+   "caption": "Painting by Jean Leon Gerome Ferris",
+   "text": "[thoughtfully] The Mayflower had landed far north of Virginia, where it was headed."
+  },
+  {
+   "type": "stat",
+   "value": 41,
+   "suffix": "",
+   "label": "men signed the Mayflower Compact",
+   "text": "[calmly] To keep order, they agreed to make laws together, and obey them."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/may_stamp.jpg",
+   "label": "1920 U.S. stamp",
+   "caption": "The signing, on a 300th anniversary stamp",
+   "title": "Plymouth's first rules",
+   "text": "[softly] It became Plymouth Colony's first governing document."
+  },
+  {
+   "type": "text",
+   "title": "An early step toward self-government",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/may_pc.jpg",
+   "text": "[thoughtfully] An early step toward American self-government."
+  },
+  {
+   "type": "question",
+   "title": "Did you learn about it in school?",
+   "text": "[gently] Did you learn about it in school?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

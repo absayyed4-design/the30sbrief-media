@@ -1,0 +1,56 @@
+{
+ "slug": "ruby-bridges-1960",
+ "date": "November 14",
+ "year": 1960,
+ "headline": "Ruby Bridges walks into history",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/ruby-bridges-1960.mp3",
+ "mood": "hopeful",
+ "post_facts": [
+  "Six years old, starting first grade",
+  "Escorted by four federal marshals",
+  "Taught alone all year by Barbara Henry"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen sixty... a six-year-old girl walked into history."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/r_steps.jpg",
+   "label": "New Orleans",
+   "caption": "U.S. Marshals with young Ruby Bridges",
+   "text": "[softly] Ruby Bridges entered a New Orleans school, escorted by four federal marshals."
+  },
+  {
+   "type": "stat",
+   "value": 4,
+   "suffix": "",
+   "label": "federal marshals walked her to school",
+   "text": "[gently] Angry crowds shouted outside. Almost every white family pulled their children out."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/r_school.jpg",
+   "label": "William Frantz",
+   "caption": "William Frantz Elementary School today",
+   "title": "A class of one",
+   "text": "[warmly] All year, teacher Barbara Henry taught Ruby alone."
+  },
+  {
+   "type": "text",
+   "title": "A walk America never forgot",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/r_crop.jpg",
+   "text": "[thoughtfully] Norman Rockwell later painted her walk."
+  },
+  {
+   "type": "question",
+   "title": "Could you have been that brave at six?",
+   "text": "[gently] Could you have been that brave at six?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

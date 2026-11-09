@@ -1,0 +1,56 @@
+{
+ "slug": "vietnam-memorial-dedicated-1982",
+ "date": "November 13",
+ "year": 1982,
+ "headline": "The Vietnam Veterans Memorial is dedicated",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/vietnam-memorial-dedicated-1982.mp3",
+ "mood": "emotional",
+ "post_facts": [
+  "Designed by Yale student Maya Lin",
+  "Chosen from over 1,400 entries",
+  "Over 58,000 names on the Wall"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[solemnly] On this day, in nineteen eighty-two... the Vietnam Veterans Memorial was dedicated."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/v_ded.jpg",
+   "label": "Washington, D.C.",
+   "caption": "Dedication of the memorial, 1982",
+   "text": "[softly] Its design came from Maya Lin, a Yale student, chosen from over fourteen hundred entries."
+  },
+  {
+   "type": "stat",
+   "value": 58000,
+   "suffix": "+",
+   "label": "names carved in black granite",
+   "text": "[solemnly] Over fifty-eight thousand names are now carved in its black granite."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/v_names.jpg",
+   "label": "November 1982",
+   "caption": "Visitors find a name on the Wall",
+   "title": "Names to touch",
+   "text": "[gently] Families came to touch their loved ones' names."
+  },
+  {
+   "type": "text",
+   "title": "A plain design that won hearts",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/v_amb.jpg",
+   "text": "[thoughtfully] Critics first called it too plain... but that faded."
+  },
+  {
+   "type": "question",
+   "title": "Have you visited the Wall?",
+   "text": "[gently] Have you ever visited the Wall?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

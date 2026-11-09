@@ -1,0 +1,57 @@
+{
+ "slug": "nellie-bly-world-trip-1889",
+ "date": "November 14",
+ "year": 1889,
+ "headline": "Nellie Bly races around the world",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/nellie-bly-world-trip-1889.mp3",
+ "mood": "adventure",
+ "post_facts": [
+  "Reporter for the New York World",
+  "Around the world in 72 days",
+  "Met Jules Verne on the way"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in eighteen eighty-nine... a reporter set out to race around the world."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/b_1889.jpg",
+   "label": "Nellie Bly",
+   "caption": "The reporter in 1889",
+   "text": "[thoughtfully] Nellie Bly wanted to beat the eighty days of Jules Verne's novel."
+  },
+  {
+   "type": "stat",
+   "value": 72,
+   "suffix": " days",
+   "label": "to circle the globe, with one small bag",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/b_cloak.jpg",
+   "text": "[calmly] She did it in seventy-two days, with one small bag."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/b_game.jpg",
+   "label": "1890",
+   "caption": "Board game made from her trip",
+   "title": "She even met Jules Verne",
+   "text": "[warmly] She even met Verne himself."
+  },
+  {
+   "type": "text",
+   "title": "A race against a rival",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/b_bis.jpg",
+   "text": "[thoughtfully] A rival, Elizabeth Bisland, raced the other way... Bly won."
+  },
+  {
+   "type": "question",
+   "title": "Could you travel with just one bag?",
+   "text": "[gently] Could you travel the world with just one bag?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

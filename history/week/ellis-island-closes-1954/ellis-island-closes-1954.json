@@ -1,0 +1,55 @@
+{
+ "slug": "ellis-island-closes-1954",
+ "date": "November 12",
+ "year": 1954,
+ "headline": "Ellis Island closes its doors",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/ellis-island-closes-1954.mp3",
+ "mood": "nostalgic",
+ "post_facts": [
+  "Opened in 1892",
+  "About 12 million immigrants passed through",
+  "Last to leave: Norwegian sailor Arne Peterssen"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen fifty-four... America's most famous front door closed."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/e_1902.jpg",
+   "label": "New York Harbor",
+   "caption": "Ellis Island, 1902",
+   "text": "[warmly] Since eighteen ninety-two, Ellis Island had received newcomers to America."
+  },
+  {
+   "type": "stat",
+   "value": 12,
+   "suffix": " million",
+   "label": "immigrants passed through its halls",
+   "text": "[softly] About twelve million immigrants passed through its halls."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/e_ital.jpg",
+   "label": "Newcomers",
+   "caption": "Italian immigrants at Ellis Island",
+   "title": "The last to leave",
+   "text": "[thoughtfully] The last to leave was a Norwegian sailor, Arne Peterssen."
+  },
+  {
+   "type": "text",
+   "title": "Where millions of American stories began",
+   "text": "[gently] For millions of families, an American story began here."
+  },
+  {
+   "type": "question",
+   "title": "Did your family's story begin here?",
+   "text": "[gently] Did your family's story begin at Ellis Island?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

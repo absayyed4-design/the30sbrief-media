@@ -1,0 +1,55 @@
+{
+ "slug": "armistice-1918",
+ "date": "November 11",
+ "year": 1918,
+ "headline": "World War One finally ends",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/armistice-1918.mp3",
+ "mood": "hopeful",
+ "post_facts": [
+  "Fighting stopped at 11 a.m.",
+  "Over 116,000 Americans died in the war",
+  "Became Veterans Day in 1954"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in nineteen eighteen... the guns of World War One fell silent."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/a_64.jpg",
+   "label": "France, 1918",
+   "caption": "U.S. 64th Regiment celebrates the armistice",
+   "text": "[warmly] American soldiers in France cheered the armistice."
+  },
+  {
+   "type": "stat",
+   "value": 116000,
+   "suffix": "+",
+   "label": "American lives lost in the war",
+   "text": "[softly] The war had cost more than one hundred sixteen thousand American lives."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/a_goodwin.jpg",
+   "label": "Back home",
+   "caption": "The Celebration of Armistice Day, by Arthur C. Goodwin",
+   "title": "Crowds filled the streets",
+   "text": "[warmly] Back home, crowds filled the streets."
+  },
+  {
+   "type": "text",
+   "title": "From Armistice Day to Veterans Day",
+   "text": "[thoughtfully] The date became Armistice Day... and later, Veterans Day."
+  },
+  {
+   "type": "question",
+   "title": "Which veteran are you thinking of?",
+   "text": "[gently] Which veteran are you thinking of today?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

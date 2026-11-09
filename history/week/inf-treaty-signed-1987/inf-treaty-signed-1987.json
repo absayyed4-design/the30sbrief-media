@@ -1,0 +1,17 @@
+{
+ "slug": "inf-treaty-signed-1987",
+ "date": "December 8",
+ "year": 1987,
+ "headline": "Reagan and Gorbachev sign the INF Treaty",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/inf-treaty-signed-1987.mp3",
+ "mood": "hopeful",
+ "post_facts": ["Signed at the White House", "2,692 missiles destroyed by 1991", "Checked by on-site inspections"],
+ "scenes": [
+  {"type": "intro", "text": "[calmly] On this day, in nineteen eighty-seven... the Cold War rivals agreed to destroy a whole group of nuclear missiles."},
+  {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/i_sign.jpg", "label": "The White House", "caption": "Reagan and Gorbachev sign the treaty", "text": "[thoughtfully] At the White House, Ronald Reagan and Mikhail Gorbachev signed the I-N-F Treaty."},
+  {"type": "stat", "value": 2692, "suffix": "", "label": "missiles destroyed by June 1991", "text": "[calmly] By nineteen ninety-one, two thousand six hundred ninety-two missiles were gone."},
+  {"type": "photo", "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/dec.GCEg/i_destroyed.jpg", "label": "Missiles destroyed", "caption": "Pershing II rocket stages, 1989", "text": "[softly] For the first time, the two sides actually cut their nuclear arms... with inspectors checking on both."},
+  {"type": "question", "title": "Did you know this happened?", "text": "[gently] Did you know this happened?"},
+  {"type": "cta", "text": "[warmly] Follow On This Day USA... for a new story from history, every day."}
+ ]
+}

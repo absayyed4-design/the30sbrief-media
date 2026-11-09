@@ -1,0 +1,57 @@
+{
+ "slug": "first-pro-football-player-1892",
+ "date": "November 12",
+ "year": 1892,
+ "headline": "Pro football's first paid player",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/first-pro-football-player-1892.mp3",
+ "mood": "nostalgic",
+ "post_facts": [
+  "Allegheny Athletic Association paid $500",
+  "Pudge Heffelfinger scored the only touchdown",
+  "The ledger page still survives"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in eighteen ninety-two... professional football was born. For five hundred dollars."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/fb_team.jpg",
+   "label": "Pittsburgh, 1892",
+   "caption": "Allegheny Athletic Association team",
+   "text": "[thoughtfully] The Allegheny Athletic Association paid Yale legend Pudge Heffelfinger to play one game."
+  },
+  {
+   "type": "stat",
+   "value": 500,
+   "prefix": "$",
+   "suffix": "",
+   "label": "paid to Pudge Heffelfinger for one game",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/fb_pudge.jpg",
+   "text": "[calmly] He became the first known paid player."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/fb_minn.jpg",
+   "label": "Heffelfinger",
+   "caption": "Playing for the University of Minnesota",
+   "title": "He scored the only touchdown",
+   "text": "[warmly] Against the rival Pittsburgh Athletic Club, he scored the only touchdown."
+  },
+  {
+   "type": "text",
+   "title": "Pro football's birth certificate",
+   "text": "[thoughtfully] The ledger page recording that payment still survives."
+  },
+  {
+   "type": "question",
+   "title": "What would he earn today?",
+   "text": "[gently] What would he earn today?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}

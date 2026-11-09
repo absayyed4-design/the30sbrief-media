@@ -1,0 +1,51 @@
+{
+ "slug": "edmund-fitzgerald-1975",
+ "date": "November 10",
+ "year": 1975,
+ "headline": "The Edmund Fitzgerald is lost",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/edmund-fitzgerald-1975.mp3",
+ "mood": "tragic",
+ "post_facts": [
+  "Largest ship on the Great Lakes at launch",
+  "All 29 crew members lost",
+  "Found in 530 feet of water"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[solemnly] On this day, in nineteen seventy-five... the Edmund Fitzgerald sank in a Lake Superior storm."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/f_ship.jpg",
+   "label": "Great Lakes",
+   "caption": "The Edmund Fitzgerald under way",
+   "text": "[gravely] When launched, she was the largest ship on the Great Lakes."
+  },
+  {
+   "type": "stat",
+   "value": 29,
+   "suffix": "",
+   "label": "crew members lost",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/f_cg.jpg",
+   "text": "[softly] All twenty-nine men aboard were lost."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/tmp.CpGXlNu4Ua/f_1971.jpg",
+   "label": "1971",
+   "caption": "The freighter on the Great Lakes",
+   "title": "Found 530 feet down",
+   "text": "[solemnly] Her wreck was found in five hundred thirty feet of icy water."
+  },
+  {
+   "type": "text",
+   "title": "Remembered in song",
+   "text": "[gently] A year later, Gordon Lightfoot's ballad made sure they'd be remembered."
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}
