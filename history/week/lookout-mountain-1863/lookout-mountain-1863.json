@@ -1,0 +1,57 @@
+{
+ "slug": "lookout-mountain-1863",
+ "date": "November 24",
+ "year": 1863,
+ "headline": "The Battle Above the Clouds",
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/lookout-mountain-1863.mp3",
+ "mood": "tense",
+ "post_facts": [
+  "General Joseph Hooker led the Union attack",
+  "Fog hid the fighting on the mountain",
+  "Missionary Ridge followed the next day"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "text": "[calmly] On this day, in eighteen sixty-three... Union soldiers fought a battle in the clouds."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/lm_view.jpg",
+   "label": "Lookout Mountain, Tennessee",
+   "caption": "Photo by Mathew Brady, 1864",
+   "title": "High above Chattanooga",
+   "text": "[thoughtfully] General Joseph Hooker's men climbed the steep slopes of Lookout Mountain, in Tennessee."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/lm_storm.jpg",
+   "label": "Storming Lookout Mountain",
+   "caption": "Print, Library of Congress",
+   "title": "Fighting inside the fog",
+   "text": "[gravely] Thick fog rolled in, so even General Grant could barely follow the fight."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/h/lm_summit.jpg",
+   "label": "Lookout Mountain summit",
+   "caption": "Civil War era photograph",
+   "title": "A Union victory",
+   "text": "[calmly] The Union took the mountain, and the next day stormed Missionary Ridge."
+  },
+  {
+   "type": "text",
+   "title": "The Battle Above the Clouds",
+   "text": "[thoughtfully] It became known as the Battle Above the Clouds."
+  },
+  {
+   "type": "question",
+   "title": "Had you heard of this battle?",
+   "text": "[gently] Had you heard of this battle?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ]
+}
