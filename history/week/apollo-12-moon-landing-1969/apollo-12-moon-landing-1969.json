@@ -1,0 +1,56 @@
+{
+ "slug": "apollo-12-moon-landing-1969",
+ "date": "November 19",
+ "year": 1969,
+ "headline": "Apollo 12 lands next to a robot",
+ "mood": "adventure",
+ "post_facts": [
+  "Lightning struck the rocket twice",
+  "Landed in the Ocean of Storms",
+  "Brought back Surveyor 3's camera"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/bean.jpg",
+   "text": "[calmly] On this day, in nineteen sixty-nine... Americans landed on the Moon. Again."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/bean.jpg",
+   "label": "Ocean of Storms, the Moon",
+   "caption": "Alan Bean on the lunar surface",
+   "text": "[thoughtfully] Pete Conrad and Alan Bean set down in the Ocean of Storms."
+  },
+  {
+   "type": "stat",
+   "value": 2,
+   "suffix": "",
+   "label": "lightning strikes during launch",
+   "text": "[calmly] Days earlier, lightning had struck their rocket twice."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/surveyor.jpg",
+   "label": "Surveyor 3",
+   "caption": "Conrad at the robot probe",
+   "text": "[softly] They landed within walking distance of Surveyor three, a robot probe from nineteen sixty-seven."
+  },
+  {
+   "type": "text",
+   "title": "A souvenir from a robot",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/surveyor.jpg",
+   "text": "[thoughtfully] They brought its camera home."
+  },
+  {
+   "type": "question",
+   "title": "Did you know this story?",
+   "text": "[gently] Did you know this story?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/apollo-12-moon-landing-1969.mp3"
+}

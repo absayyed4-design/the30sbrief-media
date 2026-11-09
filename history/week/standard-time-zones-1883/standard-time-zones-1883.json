@@ -1,0 +1,56 @@
+{
+ "slug": "standard-time-zones-1883",
+ "date": "November 18",
+ "year": 1883,
+ "headline": "The day America heard two noons",
+ "mood": "mysterious",
+ "post_facts": [
+  "Railroads made the time zones",
+  "Clocks reset at standard noon",
+  "Congress made it law in 1918"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/tzmap.jpg",
+   "text": "[calmly] On this day, in eighteen eighty-three... many American towns had noon twice."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/tzmap.jpg",
+   "label": "Standard railway time",
+   "caption": "Time zone map, 1880s",
+   "text": "[thoughtfully] Before then, towns set clocks by the sun... over three hundred local times."
+  },
+  {
+   "type": "stat",
+   "value": 4,
+   "suffix": "",
+   "label": "time zones for the United States",
+   "text": "[calmly] Then railroads created four time zones, and reset station clocks at standard noon."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/plaque.jpg",
+   "label": "Chicago, Illinois",
+   "caption": "Plaque marking the time system",
+   "text": "[softly] It was the railroads' plan, not the government's."
+  },
+  {
+   "type": "text",
+   "title": "Law only in 1918",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/tzmap.jpg",
+   "text": "[thoughtfully] Congress made it law only in nineteen eighteen."
+  },
+  {
+   "type": "question",
+   "title": "Could you keep up with that?",
+   "text": "[gently] Could you keep up with that?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/standard-time-zones-1883.mp3"
+}

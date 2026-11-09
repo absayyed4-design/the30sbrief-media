@@ -1,0 +1,56 @@
+{
+ "slug": "pikes-peak-sighted-1806",
+ "date": "November 15",
+ "year": 1806,
+ "headline": "Zebulon Pike spots his famous peak",
+ "mood": "adventure",
+ "post_facts": [
+  "Pike saw it through a spyglass",
+  "His men turned back in deep snow",
+  "First climbed in 1820"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/peak.jpg",
+   "text": "[calmly] On this day, in eighteen-oh-six... an explorer spotted the peak that bears his name."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/pike.jpg",
+   "label": "Zebulon Pike",
+   "caption": "U.S. Army explorer",
+   "text": "[thoughtfully] Lieutenant Zebulon Pike saw it like a small blue cloud."
+  },
+  {
+   "type": "stat",
+   "value": 14000,
+   "suffix": "+",
+   "label": "feet high, Pikes Peak, Colorado",
+   "text": "[calmly] His men hit waist-deep snow... and turned back."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/peak2.jpg",
+   "label": "Pikes Peak today",
+   "caption": "Seen from the Garden of the Gods",
+   "text": "[softly] Pike wrote that no one could reach the top. Fourteen years later, someone did."
+  },
+  {
+   "type": "text",
+   "title": "It inspired America the Beautiful",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/peak.jpg",
+   "text": "[warmly] In eighteen ninety-three, its summit view inspired America the Beautiful."
+  },
+  {
+   "type": "question",
+   "title": "Have you been to Pikes Peak?",
+   "text": "[gently] Have you been to Pikes Peak?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/pikes-peak-sighted-1806.mp3"
+}

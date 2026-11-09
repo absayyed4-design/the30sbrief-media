@@ -1,0 +1,56 @@
+{
+ "slug": "gettysburg-address-1863",
+ "date": "November 19",
+ "year": 1863,
+ "headline": "Lincoln's two minutes at Gettysburg",
+ "mood": "emotional",
+ "post_facts": [
+  "Dedicated a soldiers' cemetery",
+  "Everett spoke for two hours first",
+  "Lincoln used under 300 words"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/crowd.jpg",
+   "text": "[solemnly] On this day, in eighteen sixty-three... Abraham Lincoln gave a speech that lasted about two minutes."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/crowd.jpg",
+   "label": "Gettysburg, Pennsylvania",
+   "caption": "Crowd at the cemetery dedication",
+   "text": "[thoughtfully] He came to dedicate a cemetery for the soldiers of Gettysburg."
+  },
+  {
+   "type": "stat",
+   "value": 2,
+   "suffix": " hrs",
+   "label": "the speaker before Lincoln talked",
+   "text": "[calmly] The main speaker, Edward Everett, talked for about two hours."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/lincoln.jpg",
+   "label": "Abraham Lincoln",
+   "caption": "Photo by Alexander Gardner, 1863",
+   "text": "[softly] Lincoln used fewer than three hundred words."
+  },
+  {
+   "type": "text",
+   "title": "A new birth of freedom",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/bliss.jpg",
+   "text": "[thoughtfully] Today, they rank among America's most famous words."
+  },
+  {
+   "type": "question",
+   "title": "Can you recite the first line?",
+   "text": "[gently] Can you recite its first line?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/gettysburg-address-1863.mp3"
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "steamboat-willie-1928",
+ "date": "November 18",
+ "year": 1928,
+ "headline": "Mickey Mouse whistles his way to fame",
+ "mood": "nostalgic",
+ "post_facts": [
+  "Premiered at the Colony Theatre",
+  "Walt Disney did the voices",
+  "Public domain since 2024"
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/mickey.jpg",
+   "text": "[calmly] On this day, in nineteen twenty-eight... a whistling mouse sailed onto a New York screen."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/colony.jpg",
+   "label": "Colony Theatre, New York",
+   "caption": "Theatre bill, November 1928",
+   "text": "[thoughtfully] Steamboat Willie premiered at the Colony Theatre... Mickey Mouse's public debut."
+  },
+  {
+   "type": "stat",
+   "value": 7,
+   "suffix": ":47",
+   "label": "minutes of cartoon history",
+   "text": "[calmly] It ran under eight minutes. Walt Disney did the voices."
+  },
+  {
+   "type": "photo",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/pete.jpg",
+   "label": "Steamboat Willie",
+   "caption": "Captain Pete, 1928",
+   "text": "[softly] It wasn't the first sound cartoon, but it took sound to the masses."
+  },
+  {
+   "type": "text",
+   "title": "Free for everyone",
+   "image": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/mickey.jpg",
+   "text": "[warmly] In twenty twenty-four, it entered the public domain."
+  },
+  {
+   "type": "question",
+   "title": "Can you hear that whistle?",
+   "text": "[gently] Can you hear that whistle?"
+  },
+  {
+   "type": "cta",
+   "text": "[warmly] Follow On This Day USA... for a new story from history, every day."
+  }
+ ],
+ "voice_mp3": "/tmp/claude-0/-home-claude/e41149d0-625c-5c40-bd93-bc8ee6d33dcb/scratchpad/otd.nbQV/steamboat-willie-1928.mp3"
+}
